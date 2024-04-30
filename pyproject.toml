@@ -1,0 +1,23 @@
+[project]
+name = "svepa_event"
+version = "0.1.0"
+description = "Python package to find info for and relationeships between svepa events"
+authors = [
+    {name = "Magnus Wenzer", email = "nodc@smhi.se"},
+]
+dependencies = [
+    "pandas>=2.2.2",
+    "requests>=2.31.0",
+    "pyyaml>=6.0.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
