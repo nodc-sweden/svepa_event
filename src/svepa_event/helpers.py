@@ -12,7 +12,7 @@ logger = logging.getLogger(__file__)
 THIS_DIR = pathlib.Path(__file__).parent
 DATA_DIR = THIS_DIR / "DATA_FILES"
 
-SVEPA_INFO_URL = r'https://raw.githubusercontent.com/sharksmhi/svepa_event/main/src/svepa_event/DATA_FILES/svepa_info.yaml'
+SVEPA_INFO_URL = r'https://raw.githubusercontent.com/nodc-sweden/svepa_event/main/src/svepa_event/DATA_FILES/svepa_info.yaml'
 
 INFO_FILE_PATH = DATA_DIR / 'svepa_info.yaml'
 PICKLE_INFO_FILE_PATH = DATA_DIR / 'svepa_info.pickle'

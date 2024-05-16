@@ -1,6 +1,6 @@
 [project]
 name = "svepa_event"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python package to find info for and relationeships between svepa events"
 authors = [
     {name = "Magnus Wenzer", email = "nodc@smhi.se"},
