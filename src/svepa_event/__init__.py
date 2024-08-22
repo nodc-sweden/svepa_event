@@ -8,6 +8,7 @@ from svepa_event import helpers
 import datetime
 import pathlib
 import requests
+import ssl
 
 # from functools import lru_cache
 
@@ -19,7 +20,7 @@ def update_local_svepa_data() -> None:
     try:
         name = pathlib.Path(helpers.SVEPA_INFO_URL).name
         target_path = helpers.DATA_DIR / name
-        res = requests.get(helpers.SVEPA_INFO_URL)
+        res = requests.get(helpers.SVEPA_INFO_URL, verify=ssl.CERT_NONE)
         if res.status_code == 404:
             logger.warning(f'Svepa info file not found: {helpers.SVEPA_INFO_URL}. Cannot update local info!')
             return
