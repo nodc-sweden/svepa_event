@@ -148,7 +148,7 @@ class Event:
 
     @property
     def air_temp(self):
-        value = self._info['A_AverageAirTemperature2'].replace(',', '.')
+        value = self._info.get('A_AverageAirTemperature2', '').replace(',', '.')
         if not value:
             return None
         return round(float(value), 1)
