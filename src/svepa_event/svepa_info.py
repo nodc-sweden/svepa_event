@@ -43,6 +43,8 @@ class StoredSvepaInfo:
             if plat not in self._info:
                 return {}
             for _id, _info in self._info[plat].items():
+                if not (_info['start_time'] and _info['stop_time']):
+                    continue
                 if _info['start_time'] <= dtime <= _info['stop_time']:
                     return _info
         return info
