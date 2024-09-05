@@ -2735,6 +2735,19 @@ ADCP:
     start_lon: 16.535712
     start_time: '20231205072620'
     stop_time: ''
+  b8e090c8-fb21-4a33-8491-3592f09a8d5d:
+    event_id: b8e090c8-fb21-4a33-8491-3592f09a8d5d
+    event_type: Event
+    full_name: ADCP.006
+    id: '006'
+    name: ADCP
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.6598606833333
+    start_lon: 16.3702023
+    start_time: '20240601191015'
+    stop_lat: 58.27532355
+    stop_lon: 11.44758115
+    stop_time: '20240607121601'
   bac9309e-9a89-4bd0-82c9-5f502a84b406:
     event_id: bac9309e-9a89-4bd0-82c9-5f502a84b406
     event_type: Event
@@ -3423,6 +3436,20 @@ ADCP_ADJUSTMENT:
     stop_lat: 58.2740646333333
     stop_lon: 11.29388725
     stop_time: '20230314233000'
+  363e4fc9-11ba-4f24-b756-5d6580147f5e:
+    event_id: 363e4fc9-11ba-4f24-b756-5d6580147f5e
+    event_type: SubEvent
+    full_name: ADCP_Adjustment
+    id: ADCP_Adjustment
+    name: ADCP_ADJUSTMENT
+    note: Drop keels flush hull the whole trip.
+    parent_event_id: b8e090c8-fb21-4a33-8491-3592f09a8d5d
+    start_lat: 58.2753234666667
+    start_lon: 11.4475795333333
+    start_time: '20240607121548'
+    stop_lat: 58.2753234666667
+    stop_lon: 11.4475795666667
+    stop_time: '20240607121552'
   36484208-64f9-40ec-b35b-113133ef391b:
     event_id: 36484208-64f9-40ec-b35b-113133ef391b
     event_type: SubEvent
@@ -3782,6 +3809,20 @@ ADCP_ADJUSTMENT:
     stop_lat: 57.1239652833333
     stop_lon: 12.0268755
     stop_time: '20231110205841'
+  589ec8db-9634-4745-9621-2451866daa70:
+    event_id: 589ec8db-9634-4745-9621-2451866daa70
+    event_type: SubEvent
+    full_name: ADCP_Adjustment
+    id: ADCP_Adjustment
+    name: ADCP_ADJUSTMENT
+    note: "Bytt till cmd Vasterhavet p\xE5 v\xE4g norrut. / Ola"
+    parent_event_id: b8e090c8-fb21-4a33-8491-3592f09a8d5d
+    start_lat: 55.8653602833333
+    start_lon: 12.7487428833333
+    start_time: '20240606031057'
+    stop_lat: 55.8656020666667
+    stop_lon: 12.74857085
+    stop_time: '20240606031132'
   58c8a4a7-30d6-4184-a6e5-041be158f5cc:
     event_id: 58c8a4a7-30d6-4184-a6e5-041be158f5cc
     event_type: SubEvent
@@ -5814,6 +5855,21 @@ ANHOLT E:
     stop_lat: 56.66853955
     stop_lon: 12.1107326666667
     stop_time: '20240714194403'
+  f72cad29-4ce7-46da-a4ce-779134ea22ae:
+    event_id: f72cad29-4ce7-46da-a4ce-779134ea22ae
+    event_type: Station
+    full_name: Anholt E.0547
+    id: '0547'
+    max_depth: 61.6
+    min_depth: 0.0
+    name: ANHOLT E
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.6693337333333
+    start_lon: 12.1123464833333
+    start_time: '20240606094313'
+    stop_lat: 56.6693575
+    stop_lon: 12.1122739833333
+    stop_time: '20240606103445'
 ANHOLTE:
   0c3b072e-8c5b-4e1f-8a14-d8b4436aa393:
     event_id: 0c3b072e-8c5b-4e1f-8a14-d8b4436aa393
@@ -6231,6 +6287,21 @@ BCS III-10:
     stop_lat: 55.5614418333333
     stop_lon: 18.4057864333333
     stop_time: '20230918180330'
+  a7ba4978-a5f4-47c1-aef6-c357c1842607:
+    event_id: a7ba4978-a5f4-47c1-aef6-c357c1842607
+    event_type: Station
+    full_name: BCS III-10.0540
+    id: '0540'
+    max_depth: 90.5
+    min_depth: 90.0
+    name: BCS III-10
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 55.5576496666667
+    start_lon: 18.4135606833333
+    start_time: '20240604161228'
+    stop_lat: 55.5514395833333
+    stop_lon: 18.4065777
+    stop_time: '20240604170829'
   a82ad084-dbff-47f1-9a50-ca12efc8ec88:
     event_id: a82ad084-dbff-47f1-9a50-ca12efc8ec88
     event_type: Station
@@ -7459,6 +7530,19 @@ BOTTLE:
     stop_lat: 57.9979325666667
     stop_lon: 19.8787661166667
     stop_time: '20230615011426'
+  048cd383-ec44-4fb5-ac57-6216d3f66c46:
+    event_id: 048cd383-ec44-4fb5-ac57-6216d3f66c46
+    event_type: Event
+    full_name: Bottle.0173
+    id: '0173'
+    name: BOTTLE
+    parent_event_id: 8ff98025-6c86-491a-8d4b-a7fb5f0269bb
+    start_lat: 58.2943562666667
+    start_lon: 10.84424645
+    start_time: '20240607060845'
+    stop_lat: 58.2943552833333
+    stop_lon: 10.8442543
+    stop_time: '20240607065135'
   04a51961-3b9b-4841-b49d-aa5db0700b1a:
     event_id: 04a51961-3b9b-4841-b49d-aa5db0700b1a
     event_type: Event
@@ -7724,6 +7808,19 @@ BOTTLE:
     stop_lat: 61.9835033166667
     stop_lon: 20.0664757166667
     stop_time: '20231208002549'
+  0992d7f7-4e82-434c-82e3-8c7ace2aebe2:
+    event_id: 0992d7f7-4e82-434c-82e3-8c7ace2aebe2
+    event_type: Event
+    full_name: Bottle.0163
+    id: '0163'
+    name: BOTTLE
+    parent_event_id: a64fcaf4-ff72-4fe6-ae36-1cf685694349
+    start_lat: 55.38328005
+    start_lon: 15.33659
+    start_time: '20240605060344'
+    stop_lat: 55.3832665333333
+    stop_lon: 15.3366109666667
+    stop_time: '20240605065429'
   0a9149ad-48fe-4a39-802f-906b32f2099a:
     event_id: 0a9149ad-48fe-4a39-802f-906b32f2099a
     event_type: Event
@@ -7789,6 +7886,19 @@ BOTTLE:
     stop_lat: 55.5570084166667
     stop_lon: 18.4014697166667
     stop_time: '20230212174242'
+  0b77f6a9-11ce-4c5d-a3d1-7c029b55f4d3:
+    event_id: 0b77f6a9-11ce-4c5d-a3d1-7c029b55f4d3
+    event_type: Event
+    full_name: Bottle.0166
+    id: '0166'
+    name: BOTTLE
+    parent_event_id: 98c99604-239b-4e7a-93ce-c77fd9d982a6
+    start_lat: 55.01614535
+    start_lon: 13.3009808
+    start_time: '20240605190645'
+    stop_lat: 55.01605225
+    stop_lon: 13.3010270666667
+    stop_time: '20240605194318'
   0c1a2019-cde3-4f1d-aa62-43c69f420e1e:
     event_id: 0c1a2019-cde3-4f1d-aa62-43c69f420e1e
     event_type: Event
@@ -8571,6 +8681,19 @@ BOTTLE:
     stop_lat: 57.3122186333333
     stop_lon: 20.0762159666667
     stop_time: '20221112193009'
+  1fcf8607-fea8-4462-9bb8-21e44a4b6d24:
+    event_id: 1fcf8607-fea8-4462-9bb8-21e44a4b6d24
+    event_type: Event
+    full_name: Bottle.0153
+    id: '0153'
+    name: BOTTLE
+    parent_event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    start_lat: 56.1168041166667
+    start_lon: 16.5372116166667
+    start_time: '20240602061720'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
   2029a7fb-d78a-4c01-93fc-c0b228907d11:
     event_id: 2029a7fb-d78a-4c01-93fc-c0b228907d11
     event_type: Event
@@ -8636,6 +8759,19 @@ BOTTLE:
     stop_lat: 56.8575958
     stop_lon: 10.7972452833333
     stop_time: '20220114032403'
+  22a835b9-7d00-4bb7-92d2-a0fb1d21972b:
+    event_id: 22a835b9-7d00-4bb7-92d2-a0fb1d21972b
+    event_type: Event
+    full_name: Bottle.0164
+    id: '0164'
+    name: BOTTLE
+    parent_event_id: 03b9594f-d45a-40cd-a65b-2e62eb4f7315
+    start_lat: 55.6180375833333
+    start_lon: 14.8687886333333
+    start_time: '20240605091116'
+    stop_lat: 55.6180150166667
+    stop_lon: 14.8687702166667
+    stop_time: '20240605095812'
   22c8813d-de1e-444c-9efe-f621285e9f90:
     event_id: 22c8813d-de1e-444c-9efe-f621285e9f90
     event_type: Event
@@ -8688,6 +8824,19 @@ BOTTLE:
     stop_lat: 58.3393147666667
     stop_lon: 11.02621865
     stop_time: '20231111130011'
+  231ac8e2-be56-4a2c-b81c-78b3f1bbc47c:
+    event_id: 231ac8e2-be56-4a2c-b81c-78b3f1bbc47c
+    event_type: Event
+    full_name: Bottle.0172
+    id: '0172'
+    name: BOTTLE
+    parent_event_id: bc28c052-c1d9-43b9-8f40-195d05dc9be4
+    start_lat: 58.2833903
+    start_lon: 10.5067927666667
+    start_time: '20240607023753'
+    stop_lat: 58.2835111833333
+    stop_lon: 10.5069756666667
+    stop_time: '20240607035802'
   231fc0f4-2c41-4d7f-99c4-1cb5df56175f:
     event_id: 231fc0f4-2c41-4d7f-99c4-1cb5df56175f
     event_type: Event
@@ -9679,6 +9828,19 @@ BOTTLE:
     stop_lat: 58.2844494333333
     stop_lon: 10.5042864666667
     stop_time: '20230810204902'
+  39a3be49-9e84-452d-8556-9aec816b09e9:
+    event_id: 39a3be49-9e84-452d-8556-9aec816b09e9
+    event_type: Event
+    full_name: Bottle.0168
+    id: 0168
+    name: BOTTLE
+    parent_event_id: f72cad29-4ce7-46da-a4ce-779134ea22ae
+    start_lat: 56.6693274
+    start_lon: 12.1123394166667
+    start_time: '20240606094319'
+    stop_lat: 56.6693575
+    stop_lon: 12.1122739833333
+    stop_time: '20240606103445'
   39caf9bd-e24f-411a-9494-bda7380b6a45:
     event_id: 39caf9bd-e24f-411a-9494-bda7380b6a45
     event_type: Event
@@ -10380,6 +10542,19 @@ BOTTLE:
     stop_lat: 56.7894858166667
     stop_lon: 18.7997723666667
     stop_time: '20231009180423'
+  4837d2d6-1b79-424f-8fa9-808d84973919:
+    event_id: 4837d2d6-1b79-424f-8fa9-808d84973919
+    event_type: Event
+    full_name: Bottle.0170
+    id: '0170'
+    name: BOTTLE
+    parent_event_id: c1012d6e-d77d-440e-a22e-cf4f0d62405f
+    start_lat: 57.1925769
+    start_lon: 11.6580129833333
+    start_time: '20240606160859'
+    stop_lat: 57.1925664333333
+    stop_lon: 11.6580534833333
+    stop_time: '20240606165247'
   4841031f-e145-4bb1-9715-bd6bc308d012:
     event_id: 4841031f-e145-4bb1-9715-bd6bc308d012
     event_type: Event
@@ -10651,6 +10826,19 @@ BOTTLE:
     stop_lat: 57.6750824
     stop_lon: 10.95791455
     stop_time: '20230831202514'
+  4c5d081f-fc82-48b2-9ba1-3708cb7e5a4b:
+    event_id: 4c5d081f-fc82-48b2-9ba1-3708cb7e5a4b
+    event_type: Event
+    full_name: Bottle.0154
+    id: '0154'
+    name: BOTTLE
+    parent_event_id: 55bf43d4-09bb-42b0-9935-3be57e722ff9
+    start_lat: 57.1165442833333
+    start_lon: 17.6681745166667
+    start_time: '20240602143403'
+    stop_lat: 57.1170014666667
+    stop_lon: 17.6678908666667
+    stop_time: '20240602154125'
   4c66dfc0-81c5-4a48-aaea-9a179f62062d:
     event_id: 4c66dfc0-81c5-4a48-aaea-9a179f62062d
     event_type: Event
@@ -11012,6 +11200,19 @@ BOTTLE:
     stop_lat: 55.25038075
     stop_lon: 15.98326715
     stop_time: '20220616120836'
+  5585fcf8-0175-423f-9e65-9b340bcde8f8:
+    event_id: 5585fcf8-0175-423f-9e65-9b340bcde8f8
+    event_type: Event
+    full_name: Bottle.0167
+    id: '0167'
+    name: BOTTLE
+    parent_event_id: 634d0cbd-44ae-4626-a062-12d7a6260ebc
+    start_lat: 55.8658190666667
+    start_lon: 12.7480498166667
+    start_time: '20240606031608'
+    stop_lat: 55.8657774333333
+    stop_lon: 12.7479780333333
+    stop_time: '20240606035930'
   55a250c8-7ab7-417d-beff-811e907a2490:
     event_id: 55a250c8-7ab7-417d-beff-811e907a2490
     event_type: Event
@@ -11625,6 +11826,19 @@ BOTTLE:
     stop_lat: 55.8666437333333
     stop_lon: 12.7484317166667
     stop_time: '20240111201915'
+  66dae0f0-f284-4b32-9538-70488aee31d8:
+    event_id: 66dae0f0-f284-4b32-9538-70488aee31d8
+    event_type: Event
+    full_name: Bottle.0165
+    id: '0165'
+    name: BOTTLE
+    parent_event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    start_lat: 54.9716320333333
+    start_lon: 14.1010648833333
+    start_time: '20240605150950'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
   66f146fd-c0f0-4081-8477-bff2c87fe243:
     event_id: 66f146fd-c0f0-4081-8477-bff2c87fe243
     event_type: Event
@@ -12502,6 +12716,19 @@ BOTTLE:
     stop_lat: 57.8675134166667
     stop_lon: 11.2938969166667
     stop_time: '20240116190833'
+  7aa2e8dd-14a4-44e7-a40c-610da1a09fde:
+    event_id: 7aa2e8dd-14a4-44e7-a40c-610da1a09fde
+    event_type: Event
+    full_name: Bottle.0175
+    id: '0175'
+    name: BOTTLE
+    parent_event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    start_lat: 58.2603433333333
+    start_lon: 11.4336736
+    start_time: '20240607103919'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
   7ae5d1b9-46f8-4edf-a4f3-079e93371a14:
     event_id: 7ae5d1b9-46f8-4edf-a4f3-079e93371a14
     event_type: Event
@@ -12832,6 +13059,19 @@ BOTTLE:
     stop_lat: 55.86205465
     stop_lon: 12.7498983666667
     stop_time: '20220713145738'
+  804a98c6-0e5c-4b5c-a5ae-18e2dd63a630:
+    event_id: 804a98c6-0e5c-4b5c-a5ae-18e2dd63a630
+    event_type: Event
+    full_name: Bottle.0169
+    id: 0169
+    name: BOTTLE
+    parent_event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    start_lat: 56.9417048166667
+    start_lon: 12.2124742
+    start_time: '20240606123305'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
   80804258-e8b6-42d4-b696-70839d7ccb44:
     event_id: 80804258-e8b6-42d4-b696-70839d7ccb44
     event_type: Event
@@ -13493,6 +13733,19 @@ BOTTLE:
     stop_lat: 55.6159649166667
     stop_lon: 14.8682902666667
     stop_time: '20230917191406'
+  908edf95-6e72-4759-8f64-35ca3164221e:
+    event_id: 908edf95-6e72-4759-8f64-35ca3164221e
+    event_type: Event
+    full_name: Bottle.0159
+    id: 0159
+    name: BOTTLE
+    parent_event_id: 89ea8a5e-bbf6-46f8-815a-a9c1da6ad901
+    start_lat: 57.3125190666667
+    start_lon: 20.0770376666667
+    start_time: '20240603233612'
+    stop_lat: 57.3125044333333
+    stop_lon: 20.07705035
+    stop_time: '20240604012906'
   909b6ec3-b57b-4200-979c-e5c27e490d65:
     event_id: 909b6ec3-b57b-4200-979c-e5c27e490d65
     event_type: Event
@@ -13763,6 +14016,19 @@ BOTTLE:
     stop_lat: 61.9833988166667
     stop_lon: 19.1647976833333
     stop_time: '20231208033428'
+  96d9c3a1-89b2-4c44-8218-f1cd9e18f493:
+    event_id: 96d9c3a1-89b2-4c44-8218-f1cd9e18f493
+    event_type: Event
+    full_name: Bottle.0155
+    id: '0155'
+    name: BOTTLE
+    parent_event_id: 7f0b9d8e-5a1c-4498-94aa-d2fa867facce
+    start_lat: 58.0168289833333
+    start_lon: 17.9841786333333
+    start_time: '20240602210035'
+    stop_lat: 58.0168401
+    stop_lon: 17.98421635
+    stop_time: '20240602220156'
   96e552b5-671d-4bc6-b3ac-473c78794c36:
     event_id: 96e552b5-671d-4bc6-b3ac-473c78794c36
     event_type: Event
@@ -15118,6 +15384,19 @@ BOTTLE:
     stop_lat: 55.24999385
     stop_lon: 15.98429135
     stop_time: '20230616124130'
+  b47b346d-17b0-4c3d-80f4-d2132d48f453:
+    event_id: b47b346d-17b0-4c3d-80f4-d2132d48f453
+    event_type: Event
+    full_name: Bottle.0162
+    id: '0162'
+    name: BOTTLE
+    parent_event_id: e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0
+    start_lat: 55.2503317666667
+    start_lon: 15.9837782
+    start_time: '20240605012140'
+    stop_lat: 55.2570217833333
+    stop_lon: 15.9580809833333
+    stop_time: '20240605030919'
   b4cb535d-ead5-49e5-820a-04318d64a94d:
     event_id: b4cb535d-ead5-49e5-820a-04318d64a94d
     event_type: Event
@@ -15313,6 +15592,19 @@ BOTTLE:
     stop_lat: 56.6687345666667
     stop_lon: 12.1116774333333
     stop_time: '20220828171255'
+  ba18dff2-22ff-48cc-b4a9-57b8c335ab5d:
+    event_id: ba18dff2-22ff-48cc-b4a9-57b8c335ab5d
+    event_type: Event
+    full_name: Bottle.0174
+    id: '0174'
+    name: BOTTLE
+    parent_event_id: f96c5b12-2707-4272-b60c-2ef6bdfe062b
+    start_lat: 58.3399511166667
+    start_lon: 11.0279546166667
+    start_time: '20240607081304'
+    stop_lat: 58.3399869833333
+    stop_lon: 11.0278445333333
+    stop_time: '20240607085844'
   ba2f73e6-c8ff-4215-940e-6cc5f7e5e284:
     event_id: ba2f73e6-c8ff-4215-940e-6cc5f7e5e284
     event_type: Event
@@ -15965,6 +16257,19 @@ BOTTLE:
     stop_lat: 57.1929569166667
     stop_lon: 11.6583661
     stop_time: '20240507071901'
+  c541cd28-8fb0-4136-84bd-d47bfac3d2ed:
+    event_id: c541cd28-8fb0-4136-84bd-d47bfac3d2ed
+    event_type: Event
+    full_name: Bottle.0160
+    id: '0160'
+    name: BOTTLE
+    parent_event_id: 8e9305da-41c6-461c-ba11-c6080a27a5cc
+    start_lat: 56.6336751833333
+    start_lon: 19.5856285166667
+    start_time: '20240604061239'
+    stop_lat: 56.6336405666667
+    stop_lon: 19.58555365
+    stop_time: '20240604072544'
   c5980c5d-199f-478a-b139-1ce68a47c35a:
     event_id: c5980c5d-199f-478a-b139-1ce68a47c35a
     event_type: Event
@@ -17123,6 +17428,19 @@ BOTTLE:
     stop_lat: 56.6687535333333
     stop_lon: 12.1117876333333
     stop_time: '20230116103216'
+  ddb8554c-e310-4a35-85fc-d0360d41693c:
+    event_id: ddb8554c-e310-4a35-85fc-d0360d41693c
+    event_type: Event
+    full_name: Bottle.0156
+    id: '0156'
+    name: BOTTLE
+    parent_event_id: bc203d65-7c22-4f4d-a590-6c8512f5f653
+    start_lat: 58.5936928333333
+    start_lon: 18.2372476833333
+    start_time: '20240603013558'
+    stop_lat: 58.5936862333333
+    stop_lon: 18.2372490166667
+    stop_time: '20240603034708'
   de18982b-aab2-4623-81be-f1e3d16980cc:
     event_id: de18982b-aab2-4623-81be-f1e3d16980cc
     event_type: Event
@@ -17743,6 +18061,19 @@ BOTTLE:
     stop_lat: 58.0168175
     stop_lon: 17.9830111
     stop_time: '20230310004612'
+  eb663c4b-fbd8-4e62-883f-9f23c1fff024:
+    event_id: eb663c4b-fbd8-4e62-883f-9f23c1fff024
+    event_type: Event
+    full_name: Bottle.0157
+    id: '0157'
+    name: BOTTLE
+    parent_event_id: faff541d-3fb6-4514-b92d-55b691a95080
+    start_lat: 58.8817149166667
+    start_lon: 20.3275021666667
+    start_time: '20240603113506'
+    stop_lat: 58.8817113166667
+    stop_lon: 20.3274996333333
+    stop_time: '20240603123527'
   eba14f3e-f580-422d-bcf4-6e4724a44091:
     event_id: eba14f3e-f580-422d-bcf4-6e4724a44091
     event_type: Event
@@ -17857,6 +18188,19 @@ BOTTLE:
     stop_lat: 56.3980878166667
     stop_lon: 12.2612520833333
     stop_time: '20230828191210'
+  eec78de4-c827-4fbb-9aec-18fe919d1d10:
+    event_id: eec78de4-c827-4fbb-9aec-18fe919d1d10
+    event_type: Event
+    full_name: Bottle.0171
+    id: '0171'
+    name: BOTTLE
+    parent_event_id: 4b041702-e2cc-476c-a3e0-4a53a4b86c1e
+    start_lat: 57.8656046333333
+    start_lon: 11.2974107666667
+    start_time: '20240606213224'
+    stop_lat: 57.86559815
+    stop_lon: 11.2972903166667
+    stop_time: '20240606220852'
   ef7d6e41-ad87-4d27-9b4d-c19c50097660:
     event_id: ef7d6e41-ad87-4d27-9b4d-c19c50097660
     event_type: Event
@@ -17870,6 +18214,19 @@ BOTTLE:
     stop_lat: 56.6345289
     stop_lon: 19.5858171
     stop_time: '20221112140906'
+  ef7d6efd-b3b4-4662-bfbb-2558d3ebf86e:
+    event_id: ef7d6efd-b3b4-4662-bfbb-2558d3ebf86e
+    event_type: Event
+    full_name: Bottle.0161
+    id: '0161'
+    name: BOTTLE
+    parent_event_id: a7ba4978-a5f4-47c1-aef6-c357c1842607
+    start_lat: 55.5576052333333
+    start_lon: 18.4134978166667
+    start_time: '20240604161230'
+    stop_lat: 55.5514395833333
+    stop_lon: 18.4065777
+    stop_time: '20240604170829'
   ef8c9bb4-9549-4866-a36d-fa36a0263f86:
     event_id: ef8c9bb4-9549-4866-a36d-fa36a0263f86
     event_type: Event
@@ -18361,6 +18718,19 @@ BOTTLE:
     stop_lat: 59.6616611333333
     stop_lon: 19.8855903666667
     stop_time: '20231206152243'
+  f9bf18b0-472b-4040-9af3-0fffe94fb936:
+    event_id: f9bf18b0-472b-4040-9af3-0fffe94fb936
+    event_type: Event
+    full_name: Bottle.0158
+    id: 0158
+    name: BOTTLE
+    parent_event_id: 03876857-7e6c-4230-ad18-6bdc1f1ecd56
+    start_lat: 57.9985187166667
+    start_lon: 19.8777826166667
+    start_time: '20240603180625'
+    stop_lat: 57.9985073166667
+    stop_lon: 19.8777792
+    stop_time: '20240603191208'
   f9c743fe-e861-4ebc-bf26-bcc31ec11296:
     event_id: f9c743fe-e861-4ebc-bf26-bcc31ec11296
     event_type: Event
@@ -18844,6 +19214,21 @@ BY1:
     stop_lat: 55.0159511
     stop_lon: 13.3016384
     stop_time: '20240311214315'
+  98c99604-239b-4e7a-93ce-c77fd9d982a6:
+    event_id: 98c99604-239b-4e7a-93ce-c77fd9d982a6
+    event_type: Station
+    full_name: BY1.0545
+    id: '0545'
+    max_depth: 45.8
+    min_depth: 45.6
+    name: BY1
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 55.0161532
+    start_lon: 13.3010056
+    start_time: '20240605190638'
+    stop_lat: 55.01605225
+    stop_lon: 13.3010270666667
+    stop_time: '20240605194318'
   ae1319b1-e294-48ae-90ec-e6c78963c2d8:
     event_id: ae1319b1-e294-48ae-90ec-e6c78963c2d8
     event_type: Station
@@ -19366,6 +19751,21 @@ BY10:
     stop_lat: 56.6337756
     stop_lon: 19.5868491166667
     stop_time: '20230511233049'
+  8e9305da-41c6-461c-ba11-c6080a27a5cc:
+    event_id: 8e9305da-41c6-461c-ba11-c6080a27a5cc
+    event_type: Station
+    full_name: BY10.0539
+    id: 0539
+    max_depth: 144.7
+    min_depth: 143.2
+    name: BY10
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.6336650166667
+    start_lon: 19.5855981333333
+    start_time: '20240604061233'
+    stop_lat: 56.6336405666667
+    stop_lon: 19.58555365
+    stop_time: '20240604072544'
   af4c84d0-2722-4156-ad51-28cf3c4c69f4:
     event_id: af4c84d0-2722-4156-ad51-28cf3c4c69f4
     event_type: Station
@@ -19698,6 +20098,21 @@ BY15:
     stop_lat: 57.3167521666667
     stop_lon: 20.0742962333333
     stop_time: '20230311152921'
+  89ea8a5e-bbf6-46f8-815a-a9c1da6ad901:
+    event_id: 89ea8a5e-bbf6-46f8-815a-a9c1da6ad901
+    event_type: Station
+    full_name: BY15.0538
+    id: 0538
+    max_depth: 240.3
+    min_depth: 239.9
+    name: BY15
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 57.3125389
+    start_lon: 20.0770166166667
+    start_time: '20240603233607'
+    stop_lat: 57.3125044333333
+    stop_lon: 20.07705035
+    stop_time: '20240604012906'
   8f042dd9-db9f-4de0-a9cc-a92db1fd7054:
     event_id: 8f042dd9-db9f-4de0-a9cc-a92db1fd7054
     event_type: Station
@@ -20030,6 +20445,21 @@ BY2:
     stop_lat: 54.9711992166667
     stop_lon: 14.09903195
     stop_time: '20230616235432'
+  2bd64525-016e-42cf-859a-8191b4581bcb:
+    event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    event_type: Station
+    full_name: BY2.0544
+    id: '0544'
+    max_depth: 46.7
+    min_depth: 46.2
+    name: BY2
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 54.97161935
+    start_lon: 14.1010481833333
+    start_time: '20240605150944'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
   2ea005fe-fa57-4408-ac75-c8f6c61169e7:
     event_id: 2ea005fe-fa57-4408-ac75-c8f6c61169e7
     event_type: Station
@@ -20413,6 +20843,21 @@ BY20:
     stop_lat: 57.9998002666667
     stop_lon: 19.8817851666667
     stop_time: '20230113191446'
+  03876857-7e6c-4230-ad18-6bdc1f1ecd56:
+    event_id: 03876857-7e6c-4230-ad18-6bdc1f1ecd56
+    event_type: Station
+    full_name: BY20.0537
+    id: '0537'
+    max_depth: 197.6
+    min_depth: 197.2
+    name: BY20
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 57.9985181833333
+    start_lon: 19.8777780833333
+    start_time: '20240603180619'
+    stop_lat: 57.9985073166667
+    stop_lon: 19.8777792
+    stop_time: '20240603191208'
   15cf4b72-9cb0-4e79-81fb-500ff93d26c8:
     event_id: 15cf4b72-9cb0-4e79-81fb-500ff93d26c8
     event_type: Station
@@ -21148,6 +21593,21 @@ BY29:
     stop_lat: 58.88330525
     stop_lon: 20.3348407833333
     stop_time: '20230310154728'
+  faff541d-3fb6-4514-b92d-55b691a95080:
+    event_id: faff541d-3fb6-4514-b92d-55b691a95080
+    event_type: Station
+    full_name: BY29.0536
+    id: '0536'
+    max_depth: 185.6
+    min_depth: 176.2
+    name: BY29
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.8817142666667
+    start_lon: 20.3275030666667
+    start_time: '20240603113501'
+    stop_lat: 58.8817113166667
+    stop_lon: 20.3274996333333
+    stop_time: '20240603123527'
 BY3:
   0860dea5-bafd-46f4-96e6-6822ec512556:
     event_id: 0860dea5-bafd-46f4-96e6-6822ec512556
@@ -21397,6 +21857,21 @@ BY31:
     stop_lat: 58.5938731666667
     stop_lon: 18.2376045666667
     stop_time: '20240309074731'
+  bc203d65-7c22-4f4d-a590-6c8512f5f653:
+    event_id: bc203d65-7c22-4f4d-a590-6c8512f5f653
+    event_type: Station
+    full_name: BY31.0534
+    id: '0534'
+    max_depth: 444.9
+    min_depth: 444.6
+    name: BY31
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.5936883166667
+    start_lon: 18.2372744166667
+    start_time: '20240603013552'
+    stop_lat: 58.5936862333333
+    stop_lon: 18.2372490166667
+    stop_time: '20240603034708'
   c8a5653a-6542-49d4-a111-8aa24755e1d2:
     event_id: c8a5653a-6542-49d4-a111-8aa24755e1d2
     event_type: Station
@@ -21565,6 +22040,21 @@ BY32:
     stop_lat: 58.0166807
     stop_lon: 17.9855931
     stop_time: '20220520005918'
+  7f0b9d8e-5a1c-4498-94aa-d2fa867facce:
+    event_id: 7f0b9d8e-5a1c-4498-94aa-d2fa867facce
+    event_type: Station
+    full_name: BY32.0533
+    id: '0533'
+    max_depth: 202.5
+    min_depth: 202.1
+    name: BY32
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.01682835
+    start_lon: 17.9841776166667
+    start_time: '20240602210030'
+    stop_lat: 58.0168401
+    stop_lon: 17.98421635
+    stop_time: '20240602220156'
   8886ef7d-8ddb-4132-923d-e0ee8717110b:
     event_id: 8886ef7d-8ddb-4132-923d-e0ee8717110b
     event_type: Station
@@ -22122,6 +22612,21 @@ BY38:
     stop_lat: 57.1171415833333
     stop_lon: 17.6687461666667
     stop_time: '20240213170345'
+  55bf43d4-09bb-42b0-9935-3be57e722ff9:
+    event_id: 55bf43d4-09bb-42b0-9935-3be57e722ff9
+    event_type: Station
+    full_name: BY38.0532
+    id: '0532'
+    max_depth: 110.3
+    min_depth: 110.0
+    name: BY38
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 57.1165209166667
+    start_lon: 17.6682096666667
+    start_time: '20240602143358'
+    stop_lat: 57.1170014666667
+    stop_lon: 17.6678908666667
+    stop_time: '20240602154125'
   58d10b8a-803d-4c42-a335-f16fbc142948:
     event_id: 58d10b8a-803d-4c42-a335-f16fbc142948
     event_type: Station
@@ -22406,6 +22911,21 @@ BY39:
     stop_lat: 56.1163090166667
     stop_lon: 16.5360392666667
     stop_time: '20230216070649'
+  32763f0d-6c78-4a9b-b1b2-4d12fce6df7a:
+    event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    event_type: Station
+    full_name: BY39.0531
+    id: '0531'
+    max_depth: 51.6
+    min_depth: 51.4
+    name: BY39
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.1167691333333
+    start_lon: 16.5372061333333
+    start_time: '20240602061628'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
   33df978b-4543-408b-b5ef-8c35517ea686:
     event_id: 33df978b-4543-408b-b5ef-8c35517ea686
     event_type: Station
@@ -23051,6 +23571,21 @@ BY4:
     stop_lat: 55.3833251333333
     stop_lon: 15.3366049333333
     stop_time: '20231023084226'
+  a64fcaf4-ff72-4fe6-ae36-1cf685694349:
+    event_id: a64fcaf4-ff72-4fe6-ae36-1cf685694349
+    event_type: Station
+    full_name: BY4.0542
+    id: '0542'
+    max_depth: 99.9
+    min_depth: 91.4
+    name: BY4
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 55.3832872666667
+    start_lon: 15.33659665
+    start_time: '20240605060339'
+    stop_lat: 55.3832665333333
+    stop_lon: 15.3366109666667
+    stop_time: '20240605065429'
   a6dd0f7d-a1ad-4d30-9e87-7c30b1f18b09:
     event_id: a6dd0f7d-a1ad-4d30-9e87-7c30b1f18b09
     event_type: Station
@@ -23531,6 +24066,21 @@ BY5:
     stop_lat: 55.25072735
     stop_lon: 15.98318085
     stop_time: '20230414143000'
+  e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0:
+    event_id: e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0
+    event_type: Station
+    full_name: BY5.0541
+    id: '0541'
+    max_depth: 92.7
+    min_depth: 89.6
+    name: BY5
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 55.2503450333333
+    start_lon: 15.9837614666667
+    start_time: '20240605012134'
+    stop_lat: 55.2570217833333
+    stop_lon: 15.9580809833333
+    stop_time: '20240605025019'
   efadad94-5cdb-448f-a257-2ec9a60aad50:
     event_id: efadad94-5cdb-448f-a257-2ec9a60aad50
     event_type: Station
@@ -24274,6 +24824,19 @@ CTD:
     stop_lat: 56.11640915
     stop_lon: 16.5359703
     stop_time: '20240814222149'
+  0a030251-acc1-4801-bb38-d915aa633b2a:
+    event_id: 0a030251-acc1-4801-bb38-d915aa633b2a
+    event_type: Event
+    full_name: CTD.00303
+    id: '00303'
+    name: CTD
+    parent_event_id: c1012d6e-d77d-440e-a22e-cf4f0d62405f
+    start_lat: 57.1925769
+    start_lon: 11.6580129833333
+    start_time: '20240606160900'
+    stop_lat: 57.1925664333333
+    stop_lon: 11.6580534833333
+    stop_time: '20240606165247'
   0a030d71-2e65-4033-b19c-baa5af9b2def:
     event_id: 0a030d71-2e65-4033-b19c-baa5af9b2def
     event_type: Event
@@ -24404,6 +24967,19 @@ CTD:
     stop_lat: 57.2847770833333
     stop_lon: 11.5803945166667
     stop_time: '20220831122147'
+  0c36ea42-2cf8-4eaa-b03b-0b9c76aa5cd7:
+    event_id: 0c36ea42-2cf8-4eaa-b03b-0b9c76aa5cd7
+    event_type: Event
+    full_name: CTD.00291
+    id: 00291
+    name: CTD
+    parent_event_id: 03876857-7e6c-4230-ad18-6bdc1f1ecd56
+    start_lat: 57.9985163166667
+    start_lon: 19.87778375
+    start_time: '20240603180627'
+    stop_lat: 57.9985073166667
+    stop_lon: 19.8777792
+    stop_time: '20240603191208'
   0cba36bb-f3d5-4503-9462-9708e475898d:
     event_id: 0cba36bb-f3d5-4503-9462-9708e475898d
     event_type: Event
@@ -24521,6 +25097,19 @@ CTD:
     stop_lat: 58.2596666
     stop_lon: 11.4357377833333
     stop_time: '20240313113119'
+  0f0a56f5-f590-471f-9828-c57851caa968:
+    event_id: 0f0a56f5-f590-471f-9828-c57851caa968
+    event_type: Event
+    full_name: CTD.00298
+    id: 00298
+    name: CTD
+    parent_event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    start_lat: 54.9716181166667
+    start_lon: 14.1010543333333
+    start_time: '20240605150952'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
   0f362328-ae2c-4b6b-876a-fe948c059cd5:
     event_id: 0f362328-ae2c-4b6b-876a-fe948c059cd5
     event_type: Event
@@ -26095,6 +26684,19 @@ CTD:
     stop_lat: 57.1170833
     stop_lon: 17.6686398833333
     stop_time: '20240512075406'
+  2a038cdd-8be0-4dd4-8b45-689ba193681f:
+    event_id: 2a038cdd-8be0-4dd4-8b45-689ba193681f
+    event_type: Event
+    full_name: CTD.00301
+    id: '00301'
+    name: CTD
+    parent_event_id: f72cad29-4ce7-46da-a4ce-779134ea22ae
+    start_lat: 56.6693257
+    start_lon: 12.1123300833333
+    start_time: '20240606094322'
+    stop_lat: 56.6693575
+    stop_lon: 12.1122739833333
+    stop_time: '20240606103445'
   2a32332c-a10f-4310-bb1a-56f598980ecf:
     event_id: 2a32332c-a10f-4310-bb1a-56f598980ecf
     event_type: Event
@@ -26394,6 +26996,19 @@ CTD:
     stop_lat: 58.2679945333333
     stop_lon: 10.7235217833333
     stop_time: '20230117042735'
+  30b3839d-00be-4c7c-9142-7519d8a7060b:
+    event_id: 30b3839d-00be-4c7c-9142-7519d8a7060b
+    event_type: Event
+    full_name: CTD.00307
+    id: '00307'
+    name: CTD
+    parent_event_id: 8ff98025-6c86-491a-8d4b-a7fb5f0269bb
+    start_lat: 58.2943566333333
+    start_lon: 10.8442471333333
+    start_time: '20240607060847'
+    stop_lat: 58.2943552833333
+    stop_lon: 10.8442543
+    stop_time: '20240607065135'
   30cde219-d3df-48e4-8329-94e80ae93b72:
     event_id: 30cde219-d3df-48e4-8329-94e80ae93b72
     event_type: Event
@@ -26563,6 +27178,19 @@ CTD:
     stop_lat: 56.93998575
     stop_lon: 12.21183965
     stop_time: '20231112061625'
+  33532575-17a9-4d9b-8e66-25e430a5e7bb:
+    event_id: 33532575-17a9-4d9b-8e66-25e430a5e7bb
+    event_type: Event
+    full_name: CTD.00309
+    id: 00309
+    name: CTD
+    parent_event_id: f96c5b12-2707-4272-b60c-2ef6bdfe062b
+    start_lat: 58.3399736166667
+    start_lon: 11.0279502
+    start_time: '20240607081306'
+    stop_lat: 58.3399869833333
+    stop_lon: 11.0278445333333
+    stop_time: '20240607085844'
   3366cd5a-d669-4096-bfb6-97923003a1b7:
     event_id: 3366cd5a-d669-4096-bfb6-97923003a1b7
     event_type: Event
@@ -26923,6 +27551,19 @@ CTD:
     stop_lat: 57.1930932166667
     stop_lon: 11.6571542833333
     stop_time: '20231024160833'
+  3842195d-a13d-4ba3-acb6-39ee3961897b:
+    event_id: 3842195d-a13d-4ba3-acb6-39ee3961897b
+    event_type: Event
+    full_name: CTD.00300
+    id: '00300'
+    name: CTD
+    parent_event_id: 634d0cbd-44ae-4626-a062-12d7a6260ebc
+    start_lat: 55.8658389333333
+    start_lon: 12.7480439666667
+    start_time: '20240606031611'
+    stop_lat: 55.8657774333333
+    stop_lon: 12.7479780333333
+    stop_time: '20240606035930'
   38671d8d-58fc-4cef-aeb6-4c897e9ac3d1:
     event_id: 38671d8d-58fc-4cef-aeb6-4c897e9ac3d1
     event_type: Event
@@ -26949,6 +27590,19 @@ CTD:
     stop_lat: 58.39693985
     stop_lon: 11.0040976833333
     stop_time: '20230821131612'
+  3909ac12-616c-48f5-9d90-a3a7d28f9ae0:
+    event_id: 3909ac12-616c-48f5-9d90-a3a7d28f9ae0
+    event_type: Event
+    full_name: CTD.00296
+    id: 00296
+    name: CTD
+    parent_event_id: a64fcaf4-ff72-4fe6-ae36-1cf685694349
+    start_lat: 55.38328005
+    start_lon: 15.33659
+    start_time: '20240605060345'
+    stop_lat: 55.3832665333333
+    stop_lon: 15.3366109666667
+    stop_time: '20240605065429'
   391b430b-e70e-45a4-a035-f6a007b69196:
     event_id: 391b430b-e70e-45a4-a035-f6a007b69196
     event_type: Event
@@ -27443,6 +28097,32 @@ CTD:
     stop_lat: 56.6687698
     stop_lon: 12.1105742333333
     stop_time: '20220818033634'
+  420ae9b6-6eb7-4593-8dd6-d2150f44d121:
+    event_id: 420ae9b6-6eb7-4593-8dd6-d2150f44d121
+    event_type: Event
+    full_name: CTD.00289
+    id: 00289
+    name: CTD
+    parent_event_id: 77e2cd82-4c59-4c3d-925e-527a1890a94e
+    start_lat: 58.9362962333333
+    start_lon: 19.15832905
+    start_time: '20240603071233'
+    stop_lat: 58.9362972
+    stop_lon: 19.1583284166667
+    stop_time: '20240603073706'
+  423deffc-fa69-4b79-9794-2814e31cabab:
+    event_id: 423deffc-fa69-4b79-9794-2814e31cabab
+    event_type: Event
+    full_name: CTD.00308
+    id: 00308
+    name: CTD
+    parent_event_id: c7add43d-58fe-4b17-9a53-f2335b350335
+    start_lat: 58.3154304333333
+    start_lon: 10.9417998166667
+    start_time: '20240607072125'
+    stop_lat: 58.3155242
+    stop_lon: 10.94281295
+    stop_time: '20240607074801'
   42881c96-cdfd-43d9-8e0d-d766a83da5c3:
     event_id: 42881c96-cdfd-43d9-8e0d-d766a83da5c3
     event_type: Event
@@ -27534,6 +28214,19 @@ CTD:
     stop_lat: 58.8818994333333
     stop_lon: 20.3278747333333
     stop_time: '20220318185948'
+  44bb8430-6f66-4708-8920-489fe88156e3:
+    event_id: 44bb8430-6f66-4708-8920-489fe88156e3
+    event_type: Event
+    full_name: CTD.00294
+    id: 00294
+    name: CTD
+    parent_event_id: a7ba4978-a5f4-47c1-aef6-c357c1842607
+    start_lat: 55.55756305
+    start_lon: 18.4134772166667
+    start_time: '20240604161232'
+    stop_lat: 55.5514395833333
+    stop_lon: 18.4065777
+    stop_time: '20240604170829'
   457de226-bb5f-4783-b522-aa3edfea064e:
     event_id: 457de226-bb5f-4783-b522-aa3edfea064e
     event_type: Event
@@ -28080,6 +28773,19 @@ CTD:
     stop_lat: 55.2746922166667
     stop_lon: 16.0737999166667
     stop_time: '20240812050230'
+  5240865b-6563-41b3-b8e1-b15a7c6af005:
+    event_id: 5240865b-6563-41b3-b8e1-b15a7c6af005
+    event_type: Event
+    full_name: CTD.00290
+    id: 00290
+    name: CTD
+    parent_event_id: faff541d-3fb6-4514-b92d-55b691a95080
+    start_lat: 58.88171505
+    start_lon: 20.3275018166667
+    start_time: '20240603113509'
+    stop_lat: 58.8817113166667
+    stop_lon: 20.3274996333333
+    stop_time: '20240603123527'
   5283dadf-4e53-48bd-9207-3c8509f76020:
     event_id: 5283dadf-4e53-48bd-9207-3c8509f76020
     event_type: Event
@@ -28726,6 +29432,19 @@ CTD:
     stop_lat: 56.5927194166667
     stop_lon: 11.8255910833333
     stop_time: '20230827135212'
+  5d3278f9-6153-441d-b230-d2029803201e:
+    event_id: 5d3278f9-6153-441d-b230-d2029803201e
+    event_type: Event
+    full_name: CTD.00302
+    id: '00302'
+    name: CTD
+    parent_event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    start_lat: 56.9417159
+    start_lon: 12.21249755
+    start_time: '20240606123308'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
   5d5c6988-1c9c-4714-a1fd-453f28cc106e:
     event_id: 5d5c6988-1c9c-4714-a1fd-453f28cc106e
     event_type: Event
@@ -28830,6 +29549,19 @@ CTD:
     stop_lat: 55.5540431166667
     stop_lon: 18.4006148
     stop_time: '20230615211714'
+  5fd55e93-1506-42f8-ac10-cd2f2c712414:
+    event_id: 5fd55e93-1506-42f8-ac10-cd2f2c712414
+    event_type: Event
+    full_name: CTD.00287
+    id: 00287
+    name: CTD
+    parent_event_id: 7f0b9d8e-5a1c-4498-94aa-d2fa867facce
+    start_lat: 58.0168205166667
+    start_lon: 17.9841993833333
+    start_time: '20240602210037'
+    stop_lat: 58.0168401
+    stop_lon: 17.98421635
+    stop_time: '20240602220156'
   5ff772e0-083b-4a95-beb5-1e9f30565c3e:
     event_id: 5ff772e0-083b-4a95-beb5-1e9f30565c3e
     event_type: Event
@@ -31331,6 +32063,19 @@ CTD:
     stop_lat: 57.4557926666667
     stop_lon: 8.49799781666667
     stop_time: '20230825044921'
+  8ea7b75c-4bc8-4ac4-ace6-f08288e788a0:
+    event_id: 8ea7b75c-4bc8-4ac4-ace6-f08288e788a0
+    event_type: Event
+    full_name: CTD.00286
+    id: 00286
+    name: CTD
+    parent_event_id: 55bf43d4-09bb-42b0-9935-3be57e722ff9
+    start_lat: 57.1165556166667
+    start_lon: 17.6681582166667
+    start_time: '20240602143403'
+    stop_lat: 57.1170014666667
+    stop_lon: 17.6678908666667
+    stop_time: '20240602154125'
   8ec7051e-925f-4d83-8beb-dc7d8a004a76:
     event_id: 8ec7051e-925f-4d83-8beb-dc7d8a004a76
     event_type: Event
@@ -31851,6 +32596,19 @@ CTD:
     stop_lat: 55.6139034666667
     stop_lon: 14.86232855
     stop_time: '20240815052624'
+  9a438bee-0203-42f3-ba8c-8f1d5bd38814:
+    event_id: 9a438bee-0203-42f3-ba8c-8f1d5bd38814
+    event_type: Event
+    full_name: CTD.00304
+    id: '00304'
+    name: CTD
+    parent_event_id: 4b041702-e2cc-476c-a3e0-4a53a4b86c1e
+    start_lat: 57.8656045833333
+    start_lon: 11.2974113166667
+    start_time: '20240606213227'
+    stop_lat: 57.86559815
+    stop_lon: 11.2972903166667
+    stop_time: '20240606220852'
   9a50d7a3-cc49-46ab-8b98-0f91ac4db8c8:
     event_id: 9a50d7a3-cc49-46ab-8b98-0f91ac4db8c8
     event_type: Event
@@ -32096,6 +32854,19 @@ CTD:
     stop_lat: 57.5378389166667
     stop_lon: 8.44139141666667
     stop_time: '20220826083048'
+  9d127aac-19f9-48d7-8e0d-87d7a2bad02f:
+    event_id: 9d127aac-19f9-48d7-8e0d-87d7a2bad02f
+    event_type: Event
+    full_name: CTD.00306
+    id: '00306'
+    name: CTD
+    parent_event_id: 6e101550-e227-4c80-852d-91cedd6d8838
+    start_lat: 58.2658361666667
+    start_lon: 10.7234751
+    start_time: '20240607050601'
+    stop_lat: 58.2929424666667
+    stop_lon: 10.82211395
+    stop_time: '20240607055901'
   9def91ce-249d-4c27-a82a-0f6ceebf0b57:
     event_id: 9def91ce-249d-4c27-a82a-0f6ceebf0b57
     event_type: Event
@@ -32168,6 +32939,19 @@ CTD:
     parent_event_id: 40ab43b8-9955-46f3-a53b-7746b1277d23
     start_time: '20230210170803'
     stop_time: '20230210172932'
+  9ffbc480-d1c5-4123-8056-915b9d12efe8:
+    event_id: 9ffbc480-d1c5-4123-8056-915b9d12efe8
+    event_type: Event
+    full_name: CTD.00285
+    id: 00285
+    name: CTD
+    parent_event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    start_lat: 56.1168044666667
+    start_lon: 16.5372108333333
+    start_time: '20240602061722'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
   a05c899a-1ec3-4531-9a04-e2651e704c5f:
     event_id: a05c899a-1ec3-4531-9a04-e2651e704c5f
     event_type: Event
@@ -32411,6 +33195,19 @@ CTD:
     stop_lat: 58.3352256833333
     stop_lon: 11.0087031833333
     stop_time: '20221024041918'
+  a59bf2ba-1ff1-4e52-8df4-efb51584369d:
+    event_id: a59bf2ba-1ff1-4e52-8df4-efb51584369d
+    event_type: Event
+    full_name: CTD.00297
+    id: 00297
+    name: CTD
+    parent_event_id: 03b9594f-d45a-40cd-a65b-2e62eb4f7315
+    start_lat: 55.6180371
+    start_lon: 14.8687896833333
+    start_time: '20240605091118'
+    stop_lat: 55.6180150166667
+    stop_lon: 14.8687702166667
+    stop_time: '20240605095812'
   a616cccb-6b0b-480d-ad7f-429acdd62e59:
     event_id: a616cccb-6b0b-480d-ad7f-429acdd62e59
     event_type: Event
@@ -32914,6 +33711,19 @@ CTD:
     parent_event_id: 71d5c9a6-86dc-4916-8e37-bb0bb8c09871
     start_time: '20230209132657'
     stop_time: '20230209140227'
+  b07ebf07-22be-4fce-b44a-c0bdf0228d11:
+    event_id: b07ebf07-22be-4fce-b44a-c0bdf0228d11
+    event_type: Event
+    full_name: CTD.00295
+    id: 00295
+    name: CTD
+    parent_event_id: e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0
+    start_lat: 55.2503309666667
+    start_lon: 15.9837768333333
+    start_time: '20240605012142'
+    stop_lat: 55.2570217833333
+    stop_lon: 15.9580809833333
+    stop_time: '20240605030919'
   b0a47809-d97e-4d81-801b-b28eecfdf481:
     event_id: b0a47809-d97e-4d81-801b-b28eecfdf481
     event_type: Event
@@ -33001,6 +33811,19 @@ CTD:
     stop_lat: 57.31303495
     stop_lon: 20.0769749666667
     stop_time: '20230113140851'
+  b10c7d32-4c3d-4597-a608-330361daa0c9:
+    event_id: b10c7d32-4c3d-4597-a608-330361daa0c9
+    event_type: Event
+    full_name: CTD.00288
+    id: 00288
+    name: CTD
+    parent_event_id: bc203d65-7c22-4f4d-a590-6c8512f5f653
+    start_lat: 58.5936873833333
+    start_lon: 18.2372751166667
+    start_time: '20240603013600'
+    stop_lat: 58.5936862333333
+    stop_lon: 18.2372490166667
+    stop_time: '20240603034708'
   b121c119-881a-4c2f-8f0b-53bbd6042c65:
     event_id: b121c119-881a-4c2f-8f0b-53bbd6042c65
     event_type: Event
@@ -33194,6 +34017,19 @@ CTD:
     stop_lat: 57.1171493
     stop_lon: 17.6674214
     stop_time: '20220716123142'
+  b43cd91f-0952-4175-8926-79faf78d25a9:
+    event_id: b43cd91f-0952-4175-8926-79faf78d25a9
+    event_type: Event
+    full_name: CTD.00299
+    id: 00299
+    name: CTD
+    parent_event_id: 98c99604-239b-4e7a-93ce-c77fd9d982a6
+    start_lat: 55.0161559666667
+    start_lon: 13.3010079
+    start_time: '20240605190651'
+    stop_lat: 55.01605225
+    stop_lon: 13.3010270666667
+    stop_time: '20240605194318'
   b46d3e19-35e6-479c-8c6b-156c787f6a3b:
     event_id: b46d3e19-35e6-479c-8c6b-156c787f6a3b
     event_type: Event
@@ -35067,6 +35903,19 @@ CTD:
     stop_lat: 56.63363255
     stop_lon: 19.5847658166667
     stop_time: '20230713210621'
+  d42f1266-e348-4361-ac4e-773e7aa02cda:
+    event_id: d42f1266-e348-4361-ac4e-773e7aa02cda
+    event_type: Event
+    full_name: CTD.00305
+    id: '00305'
+    name: CTD
+    parent_event_id: bc28c052-c1d9-43b9-8f40-195d05dc9be4
+    start_lat: 58.2833963166667
+    start_lon: 10.5067892833333
+    start_time: '20240607023758'
+    stop_lat: 58.2835111833333
+    stop_lon: 10.5069756666667
+    stop_time: '20240607035802'
   d4371d65-288c-452e-9470-7e1169aea939:
     event_id: d4371d65-288c-452e-9470-7e1169aea939
     event_type: Event
@@ -35793,6 +36642,19 @@ CTD:
     stop_lat: 58.30326495
     stop_lon: 10.7186969666667
     stop_time: '20220823170448'
+  deb4f8a9-06d0-482c-a55b-7ce7b1b21117:
+    event_id: deb4f8a9-06d0-482c-a55b-7ce7b1b21117
+    event_type: Event
+    full_name: CTD.00293
+    id: 00293
+    name: CTD
+    parent_event_id: 8e9305da-41c6-461c-ba11-c6080a27a5cc
+    start_lat: 56.63367625
+    start_lon: 19.5856281333333
+    start_time: '20240604061242'
+    stop_lat: 56.6336405666667
+    stop_lon: 19.58555365
+    stop_time: '20240604072544'
   df2ed0b8-6ded-43c9-8aff-dd79954275ed:
     event_id: df2ed0b8-6ded-43c9-8aff-dd79954275ed
     event_type: Event
@@ -36339,6 +37201,19 @@ CTD:
     stop_lat: 58.25577595
     stop_lon: 11.4274576
     stop_time: '20221027084238'
+  e8b8397a-bfee-48da-92a3-8577336b2863:
+    event_id: e8b8397a-bfee-48da-92a3-8577336b2863
+    event_type: Event
+    full_name: CTD.00310
+    id: '00310'
+    name: CTD
+    parent_event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    start_lat: 58.2603397666667
+    start_lon: 11.4336982166667
+    start_time: '20240607103921'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
   e90a6ef6-478f-4260-94c6-3265a11e765b:
     event_id: e90a6ef6-478f-4260-94c6-3265a11e765b
     event_type: Event
@@ -37041,6 +37916,19 @@ CTD:
     stop_lat: 58.2597099333333
     stop_lon: 11.4359550333333
     stop_time: '20220110110403'
+  f964cd12-50f3-4eab-aa97-572e944a1470:
+    event_id: f964cd12-50f3-4eab-aa97-572e944a1470
+    event_type: Event
+    full_name: CTD.00292
+    id: 00292
+    name: CTD
+    parent_event_id: 89ea8a5e-bbf6-46f8-815a-a9c1da6ad901
+    start_lat: 57.31252085
+    start_lon: 20.0770399166667
+    start_time: '20240603233615'
+    stop_lat: 57.3125044333333
+    stop_lon: 20.07705035
+    stop_time: '20240604012906'
   f9c33852-122f-45b9-9508-b2c75b55f70a:
     event_id: f9c33852-122f-45b9-9508-b2c75b55f70a
     event_type: Event
@@ -37623,6 +38511,19 @@ EK80:
     stop_lat: 58.2753225333333
     stop_lon: 11.447566
     stop_time: '20220618172825'
+  3cc145d0-d86c-41d4-8fb1-3990844ed6ba:
+    event_id: 3cc145d0-d86c-41d4-8fb1-3990844ed6ba
+    event_type: Event
+    full_name: EK80.001
+    id: '001'
+    name: EK80
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.6585635666667
+    start_lon: 16.3677659833333
+    start_time: '20240601190500'
+    stop_lat: 58.2753083333333
+    stop_lon: 11.4475673
+    stop_time: '20240607121713'
   67ef4f76-3746-4f56-94b1-da329430e914:
     event_id: 67ef4f76-3746-4f56-94b1-da329430e914
     event_type: Event
@@ -38088,6 +38989,19 @@ FERRYBOX:
     start_lon: 16.53574815
     start_time: '20231205072614'
     stop_time: ''
+  1c343359-590e-4c0b-90a2-651236bf9ec0:
+    event_id: 1c343359-590e-4c0b-90a2-651236bf9ec0
+    event_type: Event
+    full_name: Ferrybox.006
+    id: '006'
+    name: FERRYBOX
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.6585635666667
+    start_lon: 16.3677659833333
+    start_time: '20240601190500'
+    stop_lat: 58.2753242166667
+    stop_lon: 11.4475806333333
+    stop_time: '20240607121651'
   238c36fa-0f8a-426c-80ef-8dcc2b8d66ff:
     event_id: 238c36fa-0f8a-426c-80ef-8dcc2b8d66ff
     event_type: Event
@@ -38685,6 +39599,21 @@ FLADEN:
     stop_lat: 57.1926656333333
     stop_lon: 11.6575883166667
     stop_time: '20240719220652'
+  c1012d6e-d77d-440e-a22e-cf4f0d62405f:
+    event_id: c1012d6e-d77d-440e-a22e-cf4f0d62405f
+    event_type: Station
+    full_name: Fladen.0549
+    id: 0549
+    max_depth: 83.5
+    min_depth: 83.1
+    name: FLADEN
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 57.1925770333333
+    start_lon: 11.6580132833333
+    start_time: '20240606160855'
+    stop_lat: 57.1925664333333
+    stop_lon: 11.6580534833333
+    stop_time: '20240606165247'
   c4394faf-f795-4d06-aa5e-4c749d23cd8f:
     event_id: c4394faf-f795-4d06-aa5e-4c749d23cd8f
     event_type: Station
@@ -39250,6 +40179,21 @@ GF9:
     stop_lon: 7.12035403333333
     stop_time: '20230823163050'
 "HAN\xD6BUKTEN":
+  03b9594f-d45a-40cd-a65b-2e62eb4f7315:
+    event_id: 03b9594f-d45a-40cd-a65b-2e62eb4f7315
+    event_type: Station
+    full_name: "Han\xF6bukten.0543"
+    id: '0543'
+    max_depth: 83.2
+    min_depth: 78.7
+    name: "HAN\xD6BUKTEN"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 55.6180208166667
+    start_lon: 14.8687651833333
+    start_time: '20240605091112'
+    stop_lat: 55.6180150166667
+    stop_lon: 14.8687702166667
+    stop_time: '20240605095812'
   03eccf7b-6cf1-46b8-8770-aa020ab31619:
     event_id: 03eccf7b-6cf1-46b8-8770-aa020ab31619
     event_type: Station
@@ -40289,6 +41233,19 @@ HOSE:
     stop_lat: 62.6527111833333
     stop_lon: 18.9526439
     stop_time: '20231210164157'
+  18932afc-6103-4053-8b3e-79933bf01e99:
+    event_id: 18932afc-6103-4053-8b3e-79933bf01e99
+    event_type: Event
+    full_name: Hose.0064
+    id: '0064'
+    name: HOSE
+    parent_event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    start_lat: 56.116782
+    start_lon: 16.5371963166667
+    start_time: '20240602061724'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
   18b2dc7f-ead4-4ce7-998b-b7212d0878cd:
     event_id: 18b2dc7f-ead4-4ce7-998b-b7212d0878cd
     event_type: Event
@@ -40341,6 +41298,19 @@ HOSE:
     stop_lat: 57.3111128833333
     stop_lon: 20.0737004833333
     stop_time: '20240310053609'
+  1bcb2203-3b9a-4c8a-ae21-c7bd0f536486:
+    event_id: 1bcb2203-3b9a-4c8a-ae21-c7bd0f536486
+    event_type: Event
+    full_name: Hose.0071
+    id: '0071'
+    name: HOSE
+    parent_event_id: a64fcaf4-ff72-4fe6-ae36-1cf685694349
+    start_lat: 55.3832781666667
+    start_lon: 15.3365881
+    start_time: '20240605060346'
+    stop_lat: 55.3832665333333
+    stop_lon: 15.3366109666667
+    stop_time: '20240605065429'
   1bda0014-693d-47cf-8c69-99c81016b308:
     event_id: 1bda0014-693d-47cf-8c69-99c81016b308
     event_type: Event
@@ -40471,6 +41441,19 @@ HOSE:
     stop_lat: 55.3912035166667
     stop_lon: 15.3257113666667
     stop_time: '20220112143123'
+  23ba426c-6f53-4914-93bf-eeecfc3be595:
+    event_id: 23ba426c-6f53-4914-93bf-eeecfc3be595
+    event_type: Event
+    full_name: Hose.0065
+    id: '0065'
+    name: HOSE
+    parent_event_id: 55bf43d4-09bb-42b0-9935-3be57e722ff9
+    start_lat: 57.1165430833333
+    start_lon: 17.66815965
+    start_time: '20240602143405'
+    stop_lat: 57.1170014666667
+    stop_lon: 17.6678908666667
+    stop_time: '20240602154125'
   23c734b8-2541-4711-a0fd-0adb95d8bb0c:
     event_id: 23c734b8-2541-4711-a0fd-0adb95d8bb0c
     event_type: Event
@@ -40549,6 +41532,32 @@ HOSE:
     stop_lat: 62.09976135
     stop_lon: 18.5475508333333
     stop_time: '20231211000559'
+  278a826c-4d5d-4471-94b8-f934f2c5f69c:
+    event_id: 278a826c-4d5d-4471-94b8-f934f2c5f69c
+    event_type: Event
+    full_name: Hose.0076
+    id: '0076'
+    name: HOSE
+    parent_event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    start_lat: 58.2603342833333
+    start_lon: 11.43373545
+    start_time: '20240607103923'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
+  28e52f6a-881e-4a5d-b7dd-d4488a7794d2:
+    event_id: 28e52f6a-881e-4a5d-b7dd-d4488a7794d2
+    event_type: Event
+    full_name: Hose.0070
+    id: '0070'
+    name: HOSE
+    parent_event_id: e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0
+    start_lat: 55.25033035
+    start_lon: 15.9837760833333
+    start_time: '20240605012145'
+    stop_lat: 55.2570217833333
+    stop_lon: 15.9580809833333
+    stop_time: '20240605030919'
   2917bac7-7dea-47f7-ada7-762c9b5dcd8c:
     event_id: 2917bac7-7dea-47f7-ada7-762c9b5dcd8c
     event_type: Event
@@ -40757,6 +41766,19 @@ HOSE:
     stop_lat: 55.25188615
     stop_lon: 15.98445075
     stop_time: '20220714111834'
+  34065a55-1b41-4625-8438-90f4e43f0290:
+    event_id: 34065a55-1b41-4625-8438-90f4e43f0290
+    event_type: Event
+    full_name: Hose.0075
+    id: '0075'
+    name: HOSE
+    parent_event_id: bc28c052-c1d9-43b9-8f40-195d05dc9be4
+    start_lat: 58.2833873333333
+    start_lon: 10.5067609166667
+    start_time: '20240607023801'
+    stop_lat: 58.2835111833333
+    stop_lon: 10.5069756666667
+    stop_time: '20240607035802'
   344fb3d0-8375-4c67-8692-96e62449dd5b:
     event_id: 344fb3d0-8375-4c67-8692-96e62449dd5b
     event_type: Event
@@ -40809,6 +41831,19 @@ HOSE:
     stop_lat: 55.5570084166667
     stop_lon: 18.4014697166667
     stop_time: '20230212174242'
+  35630ba7-686b-4300-9142-892bc034dbde:
+    event_id: 35630ba7-686b-4300-9142-892bc034dbde
+    event_type: Event
+    full_name: Hose.0073
+    id: '0073'
+    name: HOSE
+    parent_event_id: f72cad29-4ce7-46da-a4ce-779134ea22ae
+    start_lat: 56.6693286333333
+    start_lon: 12.1123241166667
+    start_time: '20240606094324'
+    stop_lat: 56.6693575
+    stop_lon: 12.1122739833333
+    stop_time: '20240606103445'
   35745af1-b4f6-43a2-957d-de65a9e831a4:
     event_id: 35745af1-b4f6-43a2-957d-de65a9e831a4
     event_type: Event
@@ -41056,6 +42091,19 @@ HOSE:
     stop_lat: 57.1151140333333
     stop_lon: 17.6600177166667
     stop_time: '20220424165515'
+  3e4e2d53-cfbe-47f7-b511-ae61de29f840:
+    event_id: 3e4e2d53-cfbe-47f7-b511-ae61de29f840
+    event_type: Event
+    full_name: Hose.0067
+    id: '0067'
+    name: HOSE
+    parent_event_id: faff541d-3fb6-4514-b92d-55b691a95080
+    start_lat: 58.8817153
+    start_lon: 20.3275012
+    start_time: '20240603113512'
+    stop_lat: 58.8817113166667
+    stop_lon: 20.3274996333333
+    stop_time: '20240603123527'
   3e7b19ca-b2be-4d62-91ff-ac5ffebf838e:
     event_id: 3e7b19ca-b2be-4d62-91ff-ac5ffebf838e
     event_type: Event
@@ -41376,6 +42424,19 @@ HOSE:
     stop_lat: 54.9705889
     stop_lon: 14.1060963833333
     stop_time: '20240811183924'
+  52954a5c-1a1d-487c-9ff3-c66404ae61a7:
+    event_id: 52954a5c-1a1d-487c-9ff3-c66404ae61a7
+    event_type: Event
+    full_name: Hose.0068
+    id: 0068
+    name: HOSE
+    parent_event_id: 89ea8a5e-bbf6-46f8-815a-a9c1da6ad901
+    start_lat: 57.3125444333333
+    start_lon: 20.0770254166667
+    start_time: '20240603233617'
+    stop_lat: 57.3125044333333
+    stop_lon: 20.07705035
+    stop_time: '20240604012906'
   5358576b-7df6-4ada-8974-5eb45bc8fea3:
     event_id: 5358576b-7df6-4ada-8974-5eb45bc8fea3
     event_type: Event
@@ -41883,6 +42944,19 @@ HOSE:
     stop_lat: 56.6686445666667
     stop_lon: 12.1122142666667
     stop_time: '20230827163627'
+  6b611d09-924c-4eeb-b197-0e0d543a8cd0:
+    event_id: 6b611d09-924c-4eeb-b197-0e0d543a8cd0
+    event_type: Event
+    full_name: Hose.0074
+    id: '0074'
+    name: HOSE
+    parent_event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    start_lat: 56.94170135
+    start_lon: 12.212473
+    start_time: '20240606123311'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
   6b85540d-2beb-4766-96ca-0659da30e546:
     event_id: 6b85540d-2beb-4766-96ca-0659da30e546
     event_type: Event
@@ -42115,6 +43189,19 @@ HOSE:
     stop_lat: 56.6687562166667
     stop_lon: 12.11177675
     stop_time: '20240208070304'
+  7472a2c4-1f58-48ad-a0cb-f47c5526b833:
+    event_id: 7472a2c4-1f58-48ad-a0cb-f47c5526b833
+    event_type: Event
+    full_name: Hose.0069
+    id: 0069
+    name: HOSE
+    parent_event_id: a7ba4978-a5f4-47c1-aef6-c357c1842607
+    start_lat: 55.5574538666667
+    start_lon: 18.4133741333333
+    start_time: '20240604161237'
+    stop_lat: 55.5514395833333
+    stop_lon: 18.4065777
+    stop_time: '20240604170829'
   74d0ce06-9a8b-487d-8a32-760eafd2e814:
     event_id: 74d0ce06-9a8b-487d-8a32-760eafd2e814
     event_type: Event
@@ -42726,6 +43813,19 @@ HOSE:
     stop_lat: 56.1154587333333
     stop_lon: 16.5358451
     stop_time: '20230416152527'
+  9fe04ae3-6412-4a1f-89fd-036d39c2ee2c:
+    event_id: 9fe04ae3-6412-4a1f-89fd-036d39c2ee2c
+    event_type: Event
+    full_name: Hose.0066
+    id: '0066'
+    name: HOSE
+    parent_event_id: bc203d65-7c22-4f4d-a590-6c8512f5f653
+    start_lat: 58.5936881833333
+    start_lon: 18.2372777666667
+    start_time: '20240603013604'
+    stop_lat: 58.5936862333333
+    stop_lon: 18.2372490166667
+    stop_time: '20240603034708'
   a2fe14ea-458c-46c6-a79b-78f5c052bc11:
     event_id: a2fe14ea-458c-46c6-a79b-78f5c052bc11
     event_type: Event
@@ -43399,6 +44499,19 @@ HOSE:
     stop_lat: 54.9712692833333
     stop_lon: 14.0983416666667
     stop_time: '20220814083903'
+  cc518927-c1cb-407e-8c33-7993017d80e5:
+    event_id: cc518927-c1cb-407e-8c33-7993017d80e5
+    event_type: Event
+    full_name: Hose.0072
+    id: '0072'
+    name: HOSE
+    parent_event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    start_lat: 54.9716174666667
+    start_lon: 14.1010575
+    start_time: '20240605150954'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
   cc8277a5-1e60-4ba2-80cd-7313e4207f86:
     event_id: cc8277a5-1e60-4ba2-80cd-7313e4207f86
     event_type: Event
@@ -44329,6 +45442,21 @@ HOSE:
     stop_lat: 58.9270739666667
     stop_lon: 19.1632195333333
     stop_time: '20220920113247'
+  77e2cd82-4c59-4c3d-925e-527a1890a94e:
+    event_id: 77e2cd82-4c59-4c3d-925e-527a1890a94e
+    event_type: Station
+    full_name: "Huvudsk\xE4r.0535"
+    id: '0535'
+    max_depth: 91.6
+    min_depth: 91.4
+    name: "HUVUDSK\xC4R"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.9362959333333
+    start_lon: 19.15833025
+    start_time: '20240603071228'
+    stop_lat: 58.9362972
+    stop_lon: 19.1583284166667
+    stop_time: '20240603073706'
   8c12bada-e31d-4e05-a55c-e2c35434453e:
     event_id: 8c12bada-e31d-4e05-a55c-e2c35434453e
     event_type: Station
@@ -46091,6 +47219,20 @@ MVP:
     stop_lat: 55.38317185
     stop_lon: 15.2503549
     stop_time: '20230112105145'
+  2b1dc6ab-c9bc-4a04-a811-83eb370f9e30:
+    event_id: 2b1dc6ab-c9bc-4a04-a811-83eb370f9e30
+    event_type: Event
+    full_name: MVP.010
+    id: '010'
+    max_depth: 136.2
+    name: MVP
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.3824212166667
+    start_lon: 19.32238365
+    start_time: '20240604092316'
+    stop_lat: 55.9215194333333
+    stop_lon: 18.8208005666667
+    stop_time: '20240604133154'
   2bab3a73-8a4f-4d7e-897e-da3c7eb7cd21:
     event_id: 2bab3a73-8a4f-4d7e-897e-da3c7eb7cd21
     event_type: Event
@@ -47511,6 +48653,21 @@ N 14 FALKENBERG:
     stop_lat: 56.93998575
     stop_lon: 12.21183965
     stop_time: '20231112061625'
+  fe1353f0-8d09-4169-9fed-2e41dd486fe3:
+    event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    event_type: Station
+    full_name: N 14 Falkenberg.0548
+    id: 0548
+    max_depth: 29.5
+    min_depth: 29.0
+    name: N 14 FALKENBERG
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.9417078666667
+    start_lon: 12.2124751833333
+    start_time: '20240606123259'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
 N14:
   2a499100-41b8-4569-9ac8-9b94dd252092:
     event_id: 2a499100-41b8-4569-9ac8-9b94dd252092
@@ -48156,6 +49313,21 @@ P2:
     stop_lat: 57.8666795666667
     stop_lon: 11.2918916833333
     stop_time: '20240207194723'
+  4b041702-e2cc-476c-a3e0-4a53a4b86c1e:
+    event_id: 4b041702-e2cc-476c-a3e0-4a53a4b86c1e
+    event_type: Station
+    full_name: P2.0550
+    id: '0550'
+    max_depth: 89.5
+    min_depth: 89.1
+    name: P2
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 57.8656039833333
+    start_lon: 11.2974267333333
+    start_time: '20240606213216'
+    stop_lat: 57.86559815
+    stop_lon: 11.2972903166667
+    stop_time: '20240606220852'
   4cce94c1-544b-49cc-ad5f-f3efb8087863:
     event_id: 4cce94c1-544b-49cc-ad5f-f3efb8087863
     event_type: Station
@@ -48873,6 +50045,32 @@ PHYTOPLANKTON:
     stop_lat: 58.5932127
     stop_lon: 18.2356431166667
     stop_time: '20230920100422'
+  19add74c-8169-495c-90ac-52cc60a0098b:
+    event_id: 19add74c-8169-495c-90ac-52cc60a0098b
+    event_type: Event
+    full_name: Phytoplankton.0048
+    id: 0048
+    name: PHYTOPLANKTON
+    parent_event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    start_lat: 0.0
+    start_lon: 16.5371944166667
+    start_time: '20240602061726'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
+  1c146718-8267-45cd-8d90-d083960a9703:
+    event_id: 1c146718-8267-45cd-8d90-d083960a9703
+    event_type: Event
+    full_name: Phytoplankton.0051
+    id: '0051'
+    name: PHYTOPLANKTON
+    parent_event_id: 89ea8a5e-bbf6-46f8-815a-a9c1da6ad901
+    start_lat: 57.3125239666667
+    start_lon: 20.07704605
+    start_time: '20240603233620'
+    stop_lat: 57.3125044333333
+    stop_lon: 20.07705035
+    stop_time: '20240604012906'
   1c78615e-5394-4cd5-86fd-c1b3093f033f:
     event_id: 1c78615e-5394-4cd5-86fd-c1b3093f033f
     event_type: Event
@@ -48951,6 +50149,19 @@ PHYTOPLANKTON:
     stop_lat: 58.2598409833333
     stop_lon: 11.43569975
     stop_time: '20231216013558'
+  22878dda-1247-48f5-a469-592576cd23f6:
+    event_id: 22878dda-1247-48f5-a469-592576cd23f6
+    event_type: Event
+    full_name: Phytoplankton.0053
+    id: '0053'
+    name: PHYTOPLANKTON
+    parent_event_id: e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0
+    start_lat: 55.2503403166667
+    start_lon: 15.9837543333333
+    start_time: '20240605012148'
+    stop_lat: 55.2570217833333
+    stop_lon: 15.9580809833333
+    stop_time: '20240605030919'
   23863158-d9d0-4e97-8863-814cce9ef331:
     event_id: 23863158-d9d0-4e97-8863-814cce9ef331
     event_type: Event
@@ -48990,6 +50201,19 @@ PHYTOPLANKTON:
     stop_lat: 54.9711697166667
     stop_lon: 14.0984807666667
     stop_time: '20240715132001'
+  267e6f1d-4960-4c41-92db-f3dc9251a92e:
+    event_id: 267e6f1d-4960-4c41-92db-f3dc9251a92e
+    event_type: Event
+    full_name: Phytoplankton.0050
+    id: '0050'
+    name: PHYTOPLANKTON
+    parent_event_id: bc203d65-7c22-4f4d-a590-6c8512f5f653
+    start_lat: 58.5936893
+    start_lon: 18.2372779333333
+    start_time: '20240603013607'
+    stop_lat: 58.5936862333333
+    stop_lon: 18.2372490166667
+    stop_time: '20240603034708'
   27e765cf-853d-4076-ba3c-2324bdadaa5e:
     event_id: 27e765cf-853d-4076-ba3c-2324bdadaa5e
     event_type: Event
@@ -49445,6 +50669,19 @@ PHYTOPLANKTON:
     stop_lat: 56.3710445166667
     stop_lon: 16.2034392166667
     stop_time: '20220921114032'
+  417d5557-0b43-4bcd-9dd7-dae525a70de1:
+    event_id: 417d5557-0b43-4bcd-9dd7-dae525a70de1
+    event_type: Event
+    full_name: Phytoplankton.0056
+    id: '0056'
+    name: PHYTOPLANKTON
+    parent_event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    start_lat: 56.9417001833333
+    start_lon: 12.2124724333333
+    start_time: '20240606123314'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
   41f36c2c-e339-4fe3-b03a-486ea37278c0:
     event_id: 41f36c2c-e339-4fe3-b03a-486ea37278c0
     event_type: Event
@@ -49796,6 +51033,19 @@ PHYTOPLANKTON:
     stop_lat: 58.3388809333333
     stop_lon: 11.0258023833333
     stop_time: '20240816163502'
+  5f20ea79-ccf9-4acc-b947-984fc1f50fb2:
+    event_id: 5f20ea79-ccf9-4acc-b947-984fc1f50fb2
+    event_type: Event
+    full_name: Phytoplankton.0058
+    id: 0058
+    name: PHYTOPLANKTON
+    parent_event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    start_lat: 58.26032865
+    start_lon: 11.4337732666667
+    start_time: '20240607103926'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
   5f31a487-6752-4dbf-bef0-d05a55b87f67:
     event_id: 5f31a487-6752-4dbf-bef0-d05a55b87f67
     event_type: Event
@@ -49822,6 +51072,19 @@ PHYTOPLANKTON:
     stop_lat: 55.2499732833333
     stop_lon: 15.9842677166667
     stop_time: '20231023055121'
+  6066ebe3-e7ed-4916-b242-fc79c808ef48:
+    event_id: 6066ebe3-e7ed-4916-b242-fc79c808ef48
+    event_type: Event
+    full_name: Phytoplankton.0054
+    id: '0054'
+    name: PHYTOPLANKTON
+    parent_event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    start_lat: 54.9716174166667
+    start_lon: 14.1010579833333
+    start_time: '20240605150956'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
   61fb2c5c-e879-45ca-a0fc-007076353d72:
     event_id: 61fb2c5c-e879-45ca-a0fc-007076353d72
     event_type: Event
@@ -50130,6 +51393,19 @@ PHYTOPLANKTON:
     stop_lat: 57.3132609
     stop_lon: 20.0770714
     stop_time: '20230713160342'
+  7c796cef-5ba1-4ce6-8dc4-15e01903fd38:
+    event_id: 7c796cef-5ba1-4ce6-8dc4-15e01903fd38
+    event_type: Event
+    full_name: Phytoplankton.0057
+    id: '0057'
+    name: PHYTOPLANKTON
+    parent_event_id: bc28c052-c1d9-43b9-8f40-195d05dc9be4
+    start_lat: 58.2833864166667
+    start_lon: 10.5067593333333
+    start_time: '20240607023804'
+    stop_lat: 58.2835111833333
+    stop_lon: 10.5069756666667
+    stop_time: '20240607035802'
   7c7c573d-d171-48b1-a937-bd4845493c5e:
     event_id: 7c7c573d-d171-48b1-a937-bd4845493c5e
     event_type: Event
@@ -50338,6 +51614,19 @@ PHYTOPLANKTON:
     stop_lat: 58.59411635
     stop_lon: 18.2360965666667
     stop_time: '20240213031601'
+  87f9d0fd-acad-4917-a791-706b7804bcd3:
+    event_id: 87f9d0fd-acad-4917-a791-706b7804bcd3
+    event_type: Event
+    full_name: Phytoplankton.0055
+    id: '0055'
+    name: PHYTOPLANKTON
+    parent_event_id: f72cad29-4ce7-46da-a4ce-779134ea22ae
+    start_lat: 56.6693272333333
+    start_lon: 12.1123112333333
+    start_time: '20240606094327'
+    stop_lat: 56.6693575
+    stop_lon: 12.1122739833333
+    stop_time: '20240606103445'
   8835bfd0-7e33-419b-a555-8d33bb3b1ffd:
     event_id: 8835bfd0-7e33-419b-a555-8d33bb3b1ffd
     event_type: Event
@@ -51398,6 +52687,19 @@ PHYTOPLANKTON:
     stop_lat: 57.3111128833333
     stop_lon: 20.0737004833333
     stop_time: '20240310053609'
+  d3c304fa-fb6c-4ad8-bb03-72b1d7d70acc:
+    event_id: d3c304fa-fb6c-4ad8-bb03-72b1d7d70acc
+    event_type: Event
+    full_name: Phytoplankton.0049
+    id: 0049
+    name: PHYTOPLANKTON
+    parent_event_id: 55bf43d4-09bb-42b0-9935-3be57e722ff9
+    start_lat: 57.1165535
+    start_lon: 17.6681423166667
+    start_time: '20240602143408'
+    stop_lat: 57.1170014666667
+    stop_lon: 17.6678908666667
+    stop_time: '20240602154125'
   d47e345c-8a73-4120-8e92-2c19c239a00f:
     event_id: d47e345c-8a73-4120-8e92-2c19c239a00f
     event_type: Event
@@ -51812,6 +53114,19 @@ PHYTOPLANKTON:
     stop_lat: 58.6652305
     stop_lon: 18.42555025
     stop_time: '20221206112625'
+  f72a12e0-fbe4-4353-b18e-6162db852425:
+    event_id: f72a12e0-fbe4-4353-b18e-6162db852425
+    event_type: Event
+    full_name: Phytoplankton.0052
+    id: '0052'
+    name: PHYTOPLANKTON
+    parent_event_id: a7ba4978-a5f4-47c1-aef6-c357c1842607
+    start_lat: 55.5573884666667
+    start_lon: 18.4133117333333
+    start_time: '20240604161240'
+    stop_lat: 55.5514395833333
+    stop_lon: 18.4065777
+    stop_time: '20240604170829'
   f8bcfd75-2aa6-4b3f-a223-2a7a09e3b846:
     event_id: f8bcfd75-2aa6-4b3f-a223-2a7a09e3b846
     event_type: Event
@@ -53642,6 +54957,19 @@ SECCHI:
     stop_lat: 58.29457945
     stop_lon: 10.8458796
     stop_time: '20230618090930'
+  579fbf20-7c9d-47d2-89fb-6920c5e28f7c:
+    event_id: 579fbf20-7c9d-47d2-89fb-6920c5e28f7c
+    event_type: Event
+    full_name: Secchi.0044
+    id: '0044'
+    name: SECCHI
+    parent_event_id: c1012d6e-d77d-440e-a22e-cf4f0d62405f
+    start_lat: 57.1925765333333
+    start_lon: 11.65801335
+    start_time: '20240606160902'
+    stop_lat: 57.1925664333333
+    stop_lon: 11.6580534833333
+    stop_time: '20240606165247'
   582ea3e7-f7a5-4a94-8926-0aa1c2862fa3:
     event_id: 582ea3e7-f7a5-4a94-8926-0aa1c2862fa3
     event_type: Event
@@ -53746,6 +55074,19 @@ SECCHI:
     stop_lat: 58.2850250166667
     stop_lon: 10.5034296166667
     stop_time: '20220618071941'
+  5cb16359-47f3-4936-8da2-c06f1e23c2b8:
+    event_id: 5cb16359-47f3-4936-8da2-c06f1e23c2b8
+    event_type: Event
+    full_name: Secchi.0040
+    id: '0040'
+    name: SECCHI
+    parent_event_id: a64fcaf4-ff72-4fe6-ae36-1cf685694349
+    start_lat: 55.3832941333333
+    start_lon: 15.33657375
+    start_time: '20240605060349'
+    stop_lat: 55.3832665333333
+    stop_lon: 15.3366109666667
+    stop_time: '20240605065429'
   5ded972c-1de8-40f4-a932-902ab6fa6d5c:
     event_id: 5ded972c-1de8-40f4-a932-902ab6fa6d5c
     event_type: Event
@@ -54199,6 +55540,19 @@ SECCHI:
     stop_lat: 58.2975956166667
     stop_lon: 10.8573156166667
     stop_time: '20220420124355'
+  7c4df908-ddf4-4343-afa2-c023c1f7f8eb:
+    event_id: 7c4df908-ddf4-4343-afa2-c023c1f7f8eb
+    event_type: Event
+    full_name: Secchi.0045
+    id: '0045'
+    name: SECCHI
+    parent_event_id: 8ff98025-6c86-491a-8d4b-a7fb5f0269bb
+    start_lat: 58.2943571833333
+    start_lon: 10.8442478333333
+    start_time: '20240607060850'
+    stop_lat: 58.2943552833333
+    stop_lon: 10.8442543
+    stop_time: '20240607065135'
   7c7c87ac-b378-46b6-bbf6-080db39414f4:
     event_id: 7c7c87ac-b378-46b6-bbf6-080db39414f4
     event_type: Event
@@ -54823,6 +56177,19 @@ SECCHI:
     stop_lat: 55.8667497833333
     stop_lon: 12.7480822166667
     stop_time: '20220617103113'
+  9e86ab24-6cea-47b0-99fe-09f2ed681ddb:
+    event_id: 9e86ab24-6cea-47b0-99fe-09f2ed681ddb
+    event_type: Event
+    full_name: Secchi.0043
+    id: '0043'
+    name: SECCHI
+    parent_event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    start_lat: 56.94169785
+    start_lon: 12.2124715166667
+    start_time: '20240606123317'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
   9ec69ef3-4583-4aed-8d1d-d13d75a7f9b1:
     event_id: 9ec69ef3-4583-4aed-8d1d-d13d75a7f9b1
     event_type: Event
@@ -54888,6 +56255,19 @@ SECCHI:
     stop_lat: 58.5920664666667
     stop_lon: 18.23530445
     stop_time: '20240114132136'
+  a43a0d2e-f648-4d2f-9ce4-a6350c9146c6:
+    event_id: a43a0d2e-f648-4d2f-9ce4-a6350c9146c6
+    event_type: Event
+    full_name: Secchi.0041
+    id: '0041'
+    name: SECCHI
+    parent_event_id: 03b9594f-d45a-40cd-a65b-2e62eb4f7315
+    start_lat: 55.6180358666667
+    start_lon: 14.8687884833333
+    start_time: '20240605091121'
+    stop_lat: 55.6180150166667
+    stop_lon: 14.8687702166667
+    stop_time: '20240605095812'
   a52bf134-ddd3-448a-9b05-2d3520db506b:
     event_id: a52bf134-ddd3-448a-9b05-2d3520db506b
     event_type: Event
@@ -55200,6 +56580,19 @@ SECCHI:
     stop_lat: 58.2572831
     stop_lon: 11.4343901
     stop_time: '20230110120610'
+  bbdfc802-ad19-40f9-ab13-73ef4f44fdcf:
+    event_id: bbdfc802-ad19-40f9-ab13-73ef4f44fdcf
+    event_type: Event
+    full_name: Secchi.0039
+    id: 0039
+    name: SECCHI
+    parent_event_id: 8e9305da-41c6-461c-ba11-c6080a27a5cc
+    start_lat: 56.6336654333333
+    start_lon: 19.5855876666667
+    start_time: '20240604061244'
+    stop_lat: 56.6336405666667
+    stop_lon: 19.58555365
+    stop_time: '20240604072544'
   bbe10f43-055f-40fc-b583-8ec9d2806c7e:
     event_id: bbe10f43-055f-40fc-b583-8ec9d2806c7e
     event_type: Event
@@ -55395,6 +56788,19 @@ SECCHI:
     stop_lat: 58.3395147166667
     stop_lon: 11.0273488666667
     stop_time: '20230618110423'
+  cb84c9a5-b16a-438d-a343-ed854a98c57d:
+    event_id: cb84c9a5-b16a-438d-a343-ed854a98c57d
+    event_type: Event
+    full_name: Secchi.0036
+    id: '0036'
+    name: SECCHI
+    parent_event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    start_lat: 56.1167828666667
+    start_lon: 16.5371935333333
+    start_time: '20240602061728'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
   cd66e6fa-99f4-4d0b-aa30-644442cca933:
     event_id: cd66e6fa-99f4-4d0b-aa30-644442cca933
     event_type: Event
@@ -55525,6 +56931,19 @@ SECCHI:
     stop_lat: 55.64879535
     stop_lon: 12.9514682166667
     stop_time: '20220113103407'
+  d6a55470-706f-4c2a-b07b-bd7d7d470f0a:
+    event_id: d6a55470-706f-4c2a-b07b-bd7d7d470f0a
+    event_type: Event
+    full_name: Secchi.0037
+    id: '0037'
+    name: SECCHI
+    parent_event_id: 55bf43d4-09bb-42b0-9935-3be57e722ff9
+    start_lat: 57.1165892
+    start_lon: 17.66811175
+    start_time: '20240602143410'
+    stop_lat: 57.1170014666667
+    stop_lon: 17.6678908666667
+    stop_time: '20240602154125'
   d7477d60-2430-41de-9807-06f88ec8ac9e:
     event_id: d7477d60-2430-41de-9807-06f88ec8ac9e
     event_type: Event
@@ -55577,6 +56996,32 @@ SECCHI:
     stop_lat: 56.6688413166667
     stop_lon: 12.1123838
     stop_time: '20220421090531'
+  dd6c9bec-47ed-4148-961d-d970f384f3b8:
+    event_id: dd6c9bec-47ed-4148-961d-d970f384f3b8
+    event_type: Event
+    full_name: Secchi.0042
+    id: '0042'
+    name: SECCHI
+    parent_event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    start_lat: 54.9716166833333
+    start_lon: 14.1010601333333
+    start_time: '20240605150959'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
+  de2da383-f2b3-4b37-846e-49d9f28f329c:
+    event_id: de2da383-f2b3-4b37-846e-49d9f28f329c
+    event_type: Event
+    full_name: Secchi.0046
+    id: '0046'
+    name: SECCHI
+    parent_event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    start_lat: 58.2603210333333
+    start_lon: 11.4338226166667
+    start_time: '20240607103930'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
   de4f02d4-8ad2-4ce8-88da-aec1c0c85a02:
     event_id: de4f02d4-8ad2-4ce8-88da-aec1c0c85a02
     event_type: Event
@@ -55824,6 +57269,19 @@ SECCHI:
     stop_lat: 55.2499941
     stop_lon: 15.98413555
     stop_time: '20240509061926'
+  f32abf00-d73c-414f-9d54-e851b753753e:
+    event_id: f32abf00-d73c-414f-9d54-e851b753753e
+    event_type: Event
+    full_name: Secchi.0038
+    id: 0038
+    name: SECCHI
+    parent_event_id: faff541d-3fb6-4514-b92d-55b691a95080
+    start_lat: 58.8816855833333
+    start_lon: 20.3274851833333
+    start_time: '20240603113515'
+    stop_lat: 58.8817113166667
+    stop_lon: 20.3274996333333
+    stop_time: '20240603123527'
   f348dc17-4ca7-40ce-9655-cc2c0cd6007a:
     event_id: f348dc17-4ca7-40ce-9655-cc2c0cd6007a
     event_type: Event
@@ -56215,6 +57673,21 @@ SLAGGO:
     stop_lat: 58.2597226166667
     stop_lon: 11.4356532833333
     stop_time: '20240810071135'
+  3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554:
+    event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    event_type: Station
+    full_name: "Sl\xE4gg\xF6.0556"
+    id: '0556'
+    max_depth: 72.7
+    min_depth: 27.5
+    name: "SL\xC4GG\xD6"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.2603504333333
+    start_lon: 11.43362555
+    start_time: '20240607103913'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
   3c11ade6-7894-42c0-a0bd-89ccc79eae6e:
     event_id: 3c11ade6-7894-42c0-a0bd-89ccc79eae6e
     event_type: Station
@@ -60957,6 +62430,18 @@ SVEA:
     stop_lat: 58.2753071166667
     stop_lon: 11.4475397833333
     stop_time: '20240313130817'
+  dcd87cc8-bd49-4017-9d4e-6673b1b3f150:
+    event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    event_type: Trip
+    full_name: SVEA.2024.013
+    id: '013'
+    name: SVEA
+    start_lat: 56.6585635666667
+    start_lon: 16.3677659833333
+    start_time: '20240601190500'
+    stop_lat: 58.2753141166667
+    stop_lon: 11.4475700666667
+    stop_time: '20240607123232'
   dd2ec1e3-db11-46d4-bb5c-73da8241d768:
     event_id: dd2ec1e3-db11-46d4-bb5c-73da8241d768
     event_type: Trip
@@ -64960,6 +66445,19 @@ TRIP POSITION (CRUISE-EVENT):
     parent_event_id: 22e7baa1-620c-42f4-8d14-be9556072e2b
     start_time: '20230508103041'
     stop_time: '20230514155927'
+  53d5b32b-4616-44c9-9079-c4bed09a6331:
+    event_id: 53d5b32b-4616-44c9-9079-c4bed09a6331
+    event_type: Event
+    full_name: Trip Position (Cruise-event)
+    id: Trip Position (Cruise-event)
+    name: TRIP POSITION (CRUISE-EVENT)
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 56.6585635666667
+    start_lon: 16.3677659833333
+    start_time: '20240601190500'
+    stop_lat: 58.2753261666667
+    stop_lon: 11.4475793166667
+    stop_time: '20240607121737'
   7c0fbf68-e6db-4790-8e01-5ac1c248ef54:
     event_id: 7c0fbf68-e6db-4790-8e01-5ac1c248ef54
     event_type: Event
@@ -65474,6 +66972,21 @@ W LANDSKRONA:
     stop_lat: 55.8649380833333
     stop_lon: 12.7490995
     stop_time: '20240811044353'
+  634d0cbd-44ae-4626-a062-12d7a6260ebc:
+    event_id: 634d0cbd-44ae-4626-a062-12d7a6260ebc
+    event_type: Station
+    full_name: W Landskrona.0546
+    id: '0546'
+    max_depth: 51.4
+    min_depth: 51.1
+    name: W LANDSKRONA
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 55.8658352333333
+    start_lon: 12.7480397833333
+    start_time: '20240606031602'
+    stop_lat: 55.8657774333333
+    stop_lon: 12.7479780333333
+    stop_time: '20240606035930'
   66e7f4fc-de15-4f04-aa28-e0c44e58d708:
     event_id: 66e7f4fc-de15-4f04-aa28-e0c44e58d708
     event_type: Station
@@ -71706,6 +73219,23 @@ WEATHER_QNH:
     stop_lat: 57.2152554333333
     stop_lon: 18.8834155666667
     stop_time: '20240510052407'
+  00b578c9-c429-4e86-bd79-58e64eb5dc62:
+    air_pres: 1011.5
+    air_temp: 14.9
+    event_id: 00b578c9-c429-4e86-bd79-58e64eb5dc62
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 8e9305da-41c6-461c-ba11-c6080a27a5cc
+    start_lat: 56.6336647
+    start_lon: 19.5855849333333
+    start_time: '20240604061247'
+    stop_lat: 56.6336405666667
+    stop_lon: 19.58555365
+    stop_time: '20240604072544'
+    wind_dir: 300
+    wind_speed: 6.8
   00b65c04-d455-43c3-9413-7cde19da26be:
     air_pres: 1024.3
     air_temp: 9.4
@@ -72001,6 +73531,23 @@ WEATHER_QNH:
     stop_time: '20231111074105'
     wind_dir: 33
     wind_speed: 7.4
+  064b7061-1bea-45a3-99a2-2e98d94c8f8c:
+    air_pres: 1007.9
+    air_temp: 14.8
+    event_id: 064b7061-1bea-45a3-99a2-2e98d94c8f8c
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: a64fcaf4-ff72-4fe6-ae36-1cf685694349
+    start_lat: 55.38327585
+    start_lon: 15.3365863333333
+    start_time: '20240605060351'
+    stop_lat: 55.3832665333333
+    stop_lon: 15.3366109666667
+    stop_time: '20240605065429'
+    wind_dir: 177
+    wind_speed: 8.2
   06a888ef-f707-4e8d-9aa6-414d9b1fc72c:
     air_pres: 1017.9
     air_temp: 17.5
@@ -72475,6 +74022,23 @@ WEATHER_QNH:
     stop_time: '20221210215401'
     wind_dir: 350
     wind_speed: 11.8
+  0fe3c3e5-4345-43ea-a33a-49fe3feb249e:
+    air_pres: 1007.6
+    air_temp: 14.8
+    event_id: 0fe3c3e5-4345-43ea-a33a-49fe3feb249e
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 03b9594f-d45a-40cd-a65b-2e62eb4f7315
+    start_lat: 55.6180366666667
+    start_lon: 14.8687883166667
+    start_time: '20240605091123'
+    stop_lat: 55.6180150166667
+    stop_lon: 14.8687702166667
+    stop_time: '20240605095812'
+    wind_dir: 214
+    wind_speed: 10.1
   10adee3f-7c25-4e2b-a10d-125794b9920a:
     air_pres: 1029.7
     air_temp: -1.4
@@ -73595,6 +75159,23 @@ WEATHER_QNH:
     stop_time: '20230716090014'
     wind_dir: 175
     wind_speed: 9.7
+  2b4fb3aa-b1e0-409d-908f-b8dc4a0006e2:
+    air_pres: 1007.7
+    air_temp: 16.8
+    event_id: 2b4fb3aa-b1e0-409d-908f-b8dc4a0006e2
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 89ea8a5e-bbf6-46f8-815a-a9c1da6ad901
+    start_lat: 57.3125264833333
+    start_lon: 20.0770487166667
+    start_time: '20240603233622'
+    stop_lat: 57.3125044333333
+    stop_lon: 20.07705035
+    stop_time: '20240604012906'
+    wind_dir: 266
+    wind_speed: 9.4
   2b51f7a5-f1a6-4125-a597-48a54313e0b8:
     air_temp: 10.1
     event_id: 2b51f7a5-f1a6-4125-a597-48a54313e0b8
@@ -74231,6 +75812,22 @@ WEATHER_QNH:
     stop_time: '20240208005040'
     wind_dir: 168
     wind_speed: 7.6
+  3b32862a-04c8-454e-aba9-4cdd1d76ac19:
+    air_pres: 1014.6
+    event_id: 3b32862a-04c8-454e-aba9-4cdd1d76ac19
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: f72cad29-4ce7-46da-a4ce-779134ea22ae
+    start_lat: 56.6693226333333
+    start_lon: 12.1123
+    start_time: '20240606094332'
+    stop_lat: 56.6693575
+    stop_lon: 12.1122739833333
+    stop_time: '20240606103445'
+    wind_dir: 229
+    wind_speed: 10.0
   3bc2dd64-0e83-4a57-ac2c-facb24ae53bc:
     air_temp: 2.2
     event_id: 3bc2dd64-0e83-4a57-ac2c-facb24ae53bc
@@ -74311,6 +75908,21 @@ WEATHER_QNH:
     stop_time: '20240409192026'
     wind_dir: 104
     wind_speed: 8.2
+  3d7f425c-b68a-4cf2-a3e4-bfb26028c78e:
+    event_id: 3d7f425c-b68a-4cf2-a3e4-bfb26028c78e
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: c1012d6e-d77d-440e-a22e-cf4f0d62405f
+    start_lat: 57.19257645
+    start_lon: 11.6580124833333
+    start_time: '20240606160904'
+    stop_lat: 57.1925664333333
+    stop_lon: 11.6580534833333
+    stop_time: '20240606165247'
+    wind_dir: 248
+    wind_speed: 7.5
   3df4a286-c0b3-402a-92a2-30e01d33cafb:
     air_pres: 1008.9
     air_temp: 3.4
@@ -74709,6 +76321,21 @@ WEATHER_QNH:
     stop_time: '20230716101807'
     wind_dir: 172
     wind_speed: 11.5
+  48591c11-569f-47df-906f-29058abb35b3:
+    event_id: 48591c11-569f-47df-906f-29058abb35b3
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 4b041702-e2cc-476c-a3e0-4a53a4b86c1e
+    start_lat: 57.8656046666667
+    start_lon: 11.29741285
+    start_time: '20240606213230'
+    stop_lat: 57.86559815
+    stop_lon: 11.2972903166667
+    stop_time: '20240606220852'
+    wind_dir: 237
+    wind_speed: 10.4
   496e3fed-167b-4c92-bab3-6ec8c74f40ff:
     air_temp: -0.0
     event_id: 496e3fed-167b-4c92-bab3-6ec8c74f40ff
@@ -76115,6 +77742,21 @@ WEATHER_QNH:
     stop_time: '20230811133246'
     wind_dir: 229
     wind_speed: 7.0
+  6d82f8be-b0de-48a0-8069-ba161ef783fc:
+    event_id: 6d82f8be-b0de-48a0-8069-ba161ef783fc
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: f96c5b12-2707-4272-b60c-2ef6bdfe062b
+    start_lat: 58.33997595
+    start_lon: 11.0279536
+    start_time: '20240607081308'
+    stop_lat: 58.3399869833333
+    stop_lon: 11.0278445333333
+    stop_time: '20240607085844'
+    wind_dir: 230
+    wind_speed: 6.8
   6dccb2bc-a3a7-43f1-a165-c43210456d8f:
     event_id: 6dccb2bc-a3a7-43f1-a165-c43210456d8f
     event_type: Event
@@ -76130,6 +77772,21 @@ WEATHER_QNH:
     stop_time: '20240815231700'
     wind_dir: 200
     wind_speed: 8.1
+  6df5051b-be2a-4e45-b33a-4373f84c6e2f:
+    event_id: 6df5051b-be2a-4e45-b33a-4373f84c6e2f
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 6e101550-e227-4c80-852d-91cedd6d8838
+    start_lat: 58.2658526
+    start_lon: 10.72350445
+    start_time: '20240607050604'
+    stop_lat: 58.2929424666667
+    stop_lon: 10.82211395
+    stop_time: '20240607055901'
+    wind_dir: 246
+    wind_speed: 5.9
   6e37b0a5-9892-4aaf-9a58-95f36c3d7aa1:
     air_pres: 1003.3
     air_temp: 6.7
@@ -76675,6 +78332,23 @@ WEATHER_QNH:
     stop_lat: 57.1666490833333
     stop_lon: 18.7830832666667
     stop_time: '20240510035223'
+  78b54343-3dd2-492a-91e0-917cf3447147:
+    air_pres: 1013.5
+    air_temp: 14.9
+    event_id: 78b54343-3dd2-492a-91e0-917cf3447147
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: a7ba4978-a5f4-47c1-aef6-c357c1842607
+    start_lat: 55.55730055
+    start_lon: 18.4132285333333
+    start_time: '20240604161244'
+    stop_lat: 55.5514395833333
+    stop_lon: 18.4065777
+    stop_time: '20240604170829'
+    wind_dir: 250
+    wind_speed: 6.4
   79082c00-962e-4b26-9891-c963f17f8e5b:
     air_pres: 1005.9
     air_temp: 0.5
@@ -76701,6 +78375,23 @@ WEATHER_QNH:
     parent_event_id: 67fa2f94-5293-4144-a8da-0a777ea658d0
     start_time: '20230210232237'
     stop_time: '20230211000254'
+  79447c9e-8b3d-49c9-a559-16f887947e7c:
+    air_pres: 1006.3
+    air_temp: 16.7
+    event_id: 79447c9e-8b3d-49c9-a559-16f887947e7c
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 03876857-7e6c-4230-ad18-6bdc1f1ecd56
+    start_lat: 57.9985169833333
+    start_lon: 19.8777834333333
+    start_time: '20240603180630'
+    stop_lat: 57.9985073166667
+    stop_lon: 19.8777792
+    stop_time: '20240603191208'
+    wind_dir: 206
+    wind_speed: 7.9
   7a150349-0293-457c-a15a-a7776e2302f4:
     air_pres: 999.3
     air_temp: 1.3
@@ -76953,6 +78644,21 @@ WEATHER_QNH:
     stop_time: '20230917191406'
     wind_dir: 70
     wind_speed: 12.4
+  7fb4c4cc-8c01-44b7-94fc-c9734d5c7ada:
+    event_id: 7fb4c4cc-8c01-44b7-94fc-c9734d5c7ada
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: c7add43d-58fe-4b17-9a53-f2335b350335
+    start_lat: 58.3154333
+    start_lon: 10.9418021166667
+    start_time: '20240607072128'
+    stop_lat: 58.3155242
+    stop_lon: 10.94281295
+    stop_time: '20240607074801'
+    wind_dir: 228
+    wind_speed: 8.3
   80847351-9dbe-46e0-9998-711ee7f369a3:
     air_pres: 1016.2
     air_temp: 3.9
@@ -77062,6 +78768,23 @@ WEATHER_QNH:
     parent_event_id: 2821ebc0-2b13-48a2-9a79-4b14b4e222a8
     start_time: '20230210195844'
     stop_time: '20230210202242'
+  844e76d9-3265-48b0-9293-d986157ef0a5:
+    air_pres: 1012.3
+    air_temp: 15.6
+    event_id: 844e76d9-3265-48b0-9293-d986157ef0a5
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 7f0b9d8e-5a1c-4498-94aa-d2fa867facce
+    start_lat: 58.0168284166667
+    start_lon: 17.9841788
+    start_time: '20240602210039'
+    stop_lat: 58.0168401
+    stop_lon: 17.98421635
+    stop_time: '20240602220156'
+    wind_dir: 257
+    wind_speed: 4.6
   84fe3568-d077-4f40-8c09-d74ad82f4327:
     air_pres: 1000.2
     air_temp: 5.6
@@ -77206,6 +78929,21 @@ WEATHER_QNH:
     stop_time: '20231205233707'
     wind_dir: 16
     wind_speed: 4.1
+  8851c9e1-1ceb-4776-a891-e69d466ce47f:
+    event_id: 8851c9e1-1ceb-4776-a891-e69d466ce47f
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    start_lat: 58.2603152
+    start_lon: 11.4338587166667
+    start_time: '20240607103933'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
+    wind_dir: 208
+    wind_speed: 7.9
   88c59c3c-6251-423d-b676-bd008eaeeff6:
     event_id: 88c59c3c-6251-423d-b676-bd008eaeeff6
     event_type: Event
@@ -78022,6 +79760,23 @@ WEATHER_QNH:
     stop_time: '20240718151930'
     wind_dir: 243
     wind_speed: 13.4
+  9ce5b432-39fb-4b25-a190-0c4bac197478:
+    air_pres: 1012.6
+    air_temp: 15.9
+    event_id: 9ce5b432-39fb-4b25-a190-0c4bac197478
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 55bf43d4-09bb-42b0-9935-3be57e722ff9
+    start_lat: 57.11658505
+    start_lon: 17.6680956333333
+    start_time: '20240602143413'
+    stop_lat: 57.1170014666667
+    stop_lon: 17.6678908666667
+    stop_time: '20240602154125'
+    wind_dir: 346
+    wind_speed: 5.8
   9d2679b9-3d27-4f29-9d25-d495fad3432d:
     air_pres: 992.0
     air_temp: 6.4
@@ -78154,6 +79909,23 @@ WEATHER_QNH:
     stop_lat: 55.8568719666667
     stop_lon: 15.7726138666667
     stop_time: '20240513063436'
+  a0d57ad6-c54f-45c0-8894-a5f4f5aa79e2:
+    air_pres: 1015.0
+    air_temp: 11.5
+    event_id: a0d57ad6-c54f-45c0-8894-a5f4f5aa79e2
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    start_lat: 56.9417096666667
+    start_lon: 12.2124981833333
+    start_time: '20240606123320'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
+    wind_dir: 249
+    wind_speed: 6.3
   a0e28e17-78eb-4d8d-af2e-537f6e19da8b:
     air_pres: 1018.0
     air_temp: 16.4
@@ -78171,6 +79943,21 @@ WEATHER_QNH:
     stop_time: '20230814051026'
     wind_dir: 251
     wind_speed: 3.9
+  a1d065d8-265c-4edf-b2d5-7894d1d613a5:
+    event_id: a1d065d8-265c-4edf-b2d5-7894d1d613a5
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: bc28c052-c1d9-43b9-8f40-195d05dc9be4
+    start_lat: 58.2833909833333
+    start_lon: 10.5067864666667
+    start_time: '20240607023807'
+    stop_lat: 58.2835111833333
+    stop_lon: 10.5069756666667
+    stop_time: '20240607035802'
+    wind_dir: 252
+    wind_speed: 8.7
   a29c0fa8-431f-405d-9487-a3c3989d8cd9:
     air_pres: 1017.7
     air_temp: -3.8
@@ -78433,6 +80220,23 @@ WEATHER_QNH:
     stop_time: '20240812050230'
     wind_dir: 294
     wind_speed: 9.3
+  a9dcff66-2839-4d29-b840-5b73abe76947:
+    air_pres: 1009.8
+    air_temp: 15.6
+    event_id: a9dcff66-2839-4d29-b840-5b73abe76947
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0
+    start_lat: 55.2503290166667
+    start_lon: 15.9837741166667
+    start_time: '20240605012151'
+    stop_lat: 55.2570217833333
+    stop_lon: 15.9580809833333
+    stop_time: '20240605030919'
+    wind_dir: 161
+    wind_speed: 7.7
   a9e71d64-7517-47b0-bbb6-8d092da07015:
     air_pres: 1025.9
     air_temp: 9.8
@@ -78662,6 +80466,23 @@ WEATHER_QNH:
     stop_time: '20230412134429'
     wind_dir: 164
     wind_speed: 6.2
+  ae9c64ab-9461-4f41-ab9f-4efeb80da34f:
+    air_pres: 1008.6
+    air_temp: 19.9
+    event_id: ae9c64ab-9461-4f41-ab9f-4efeb80da34f
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: faff541d-3fb6-4514-b92d-55b691a95080
+    start_lat: 58.8817155666667
+    start_lon: 20.3275005333333
+    start_time: '20240603113517'
+    stop_lat: 58.8817113166667
+    stop_lon: 20.3274996333333
+    stop_time: '20240603123527'
+    wind_dir: 198
+    wind_speed: 4.2
   aeb13391-e1d0-43f1-8d13-aebd275ea753:
     air_pres: 1005.5
     air_temp: 19.0
@@ -79215,6 +81036,23 @@ WEATHER_QNH:
     stop_time: '20231215225235'
     wind_dir: 265
     wind_speed: 8.8
+  c0f0c30d-371a-4235-bbea-d5d32a015af0:
+    air_pres: 1010.4
+    air_temp: 16.4
+    event_id: c0f0c30d-371a-4235-bbea-d5d32a015af0
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: bc203d65-7c22-4f4d-a590-6c8512f5f653
+    start_lat: 58.5936891
+    start_lon: 18.2372792166667
+    start_time: '20240603013610'
+    stop_lat: 58.5936862333333
+    stop_lon: 18.2372490166667
+    stop_time: '20240603034708'
+    wind_dir: 276
+    wind_speed: 3.0
   c0fd18bf-fab5-4f20-9630-9f8b6631f76a:
     air_pres: 1016.7
     air_temp: 3.8
@@ -79522,6 +81360,23 @@ WEATHER_QNH:
     stop_time: '20230916194710'
     wind_dir: 170
     wind_speed: 6.8
+  c72731a4-ee74-4bff-a0ad-3813e3818601:
+    air_pres: 1009.4
+    air_temp: 17.7
+    event_id: c72731a4-ee74-4bff-a0ad-3813e3818601
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 77e2cd82-4c59-4c3d-925e-527a1890a94e
+    start_lat: 58.9362953666667
+    start_lon: 19.1583292166667
+    start_time: '20240603071235'
+    stop_lat: 58.9362972
+    stop_lon: 19.1583284166667
+    stop_time: '20240603073706'
+    wind_dir: 149
+    wind_speed: 2.7
   c76cf1d1-9baa-4041-8656-983a993c6204:
     air_pres: 1024.7
     air_temp: -0.4
@@ -79857,6 +81712,23 @@ WEATHER_QNH:
     stop_time: '20240209182909'
     wind_dir: 89
     wind_speed: 13.1
+  cde71af0-49ea-4219-b0f1-122abb61bb52:
+    air_pres: 1014.5
+    air_temp: 11.0
+    event_id: cde71af0-49ea-4219-b0f1-122abb61bb52
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 634d0cbd-44ae-4626-a062-12d7a6260ebc
+    start_lat: 55.8658403333333
+    start_lon: 12.7480451333333
+    start_time: '20240606031614'
+    stop_lat: 55.8657774333333
+    stop_lon: 12.7479780333333
+    stop_time: '20240606035930'
+    wind_dir: 240
+    wind_speed: 7.5
   ce46eeab-a04d-4b3a-a950-2c7b61023f79:
     air_pres: 1016.2
     air_temp: 4.6
@@ -80557,6 +82429,21 @@ WEATHER_QNH:
     stop_lat: 57.43361455
     stop_lon: 19.0232664166667
     stop_time: '20240510094323'
+  e2d36952-0e2e-46d2-8235-188a748cfa53:
+    event_id: e2d36952-0e2e-46d2-8235-188a748cfa53
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 8ff98025-6c86-491a-8d4b-a7fb5f0269bb
+    start_lat: 58.2943571666667
+    start_lon: 10.8442470166667
+    start_time: '20240607060852'
+    stop_lat: 58.2943552833333
+    stop_lon: 10.8442543
+    stop_time: '20240607065135'
+    wind_dir: 248
+    wind_speed: 6.1
   e32d4519-be31-411a-9bfd-6b2fbe05225f:
     air_pres: 1029.2
     air_temp: -0.3
@@ -80766,6 +82653,23 @@ WEATHER_QNH:
     stop_time: '20240816142003'
     wind_dir: 266
     wind_speed: 6.4
+  e8489f74-cd9c-49c3-ab7b-7964cc4c984c:
+    air_pres: 1012.8
+    air_temp: 14.8
+    event_id: e8489f74-cd9c-49c3-ab7b-7964cc4c984c
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 98c99604-239b-4e7a-93ce-c77fd9d982a6
+    start_lat: 55.0161466166667
+    start_lon: 13.3009802333333
+    start_time: '20240605190655'
+    stop_lat: 55.01605225
+    stop_lon: 13.3010270666667
+    stop_time: '20240605194318'
+    wind_dir: 291
+    wind_speed: 7.0
   e8a51ebf-ce96-414e-97dc-5932513aaad1:
     air_pres: 1018.8
     air_temp: 13.4
@@ -80816,6 +82720,23 @@ WEATHER_QNH:
     stop_time: '20230314160917'
     wind_dir: 315
     wind_speed: 9.8
+  e9d4e46b-0db7-40d0-a0c3-8c82988bf64e:
+    air_pres: 1011.9
+    air_temp: 14.9
+    event_id: e9d4e46b-0db7-40d0-a0c3-8c82988bf64e
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    start_lat: 54.9716161333333
+    start_lon: 14.1010620333333
+    start_time: '20240605151002'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
+    wind_dir: 249
+    wind_speed: 7.5
   eaea0e0e-b1ec-4268-880d-dc4e579e7bc9:
     event_id: eaea0e0e-b1ec-4268-880d-dc4e579e7bc9
     event_type: Event
@@ -81520,6 +83441,23 @@ WEATHER_QNH:
     stop_lat: 57.17598755
     stop_lon: 17.1982762
     stop_time: '20240512120104'
+  faf8f5a4-f897-442e-b7f2-4032003ebe42:
+    air_pres: 1013.3
+    air_temp: 15.6
+    event_id: faf8f5a4-f897-442e-b7f2-4032003ebe42
+    event_type: Event
+    full_name: Weather_QNH
+    id: Weather_QNH
+    name: WEATHER_QNH
+    parent_event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    start_lat: 56.11678275
+    start_lon: 16.5371931
+    start_time: '20240602061731'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
+    wind_dir: 14
+    wind_speed: 5.0
   fb7b9eb1-012c-4789-ab7d-add5b4747abd:
     event_id: fb7b9eb1-012c-4789-ab7d-add5b4747abd
     event_type: Event
@@ -81821,6 +83759,19 @@ ZOOPLANKTON:
     stop_lat: 54.9721096666667
     stop_lon: 14.0992839666667
     stop_time: '20230112061353'
+  025b5c72-d07e-42ef-b745-28a8b176e5d7:
+    event_id: 025b5c72-d07e-42ef-b745-28a8b176e5d7
+    event_type: Event
+    full_name: Zooplankton.0050
+    id: '0050'
+    name: ZOOPLANKTON
+    parent_event_id: 3a6ab077-1ba7-4bb0-ae32-ffb7e8dc9554
+    start_lat: 58.2603093333333
+    start_lon: 11.4338941
+    start_time: '20240607103936'
+    stop_lat: 58.2657981833333
+    stop_lon: 11.4411239666667
+    stop_time: '20240607114332'
   040f3174-f0df-4daa-b8c1-fb32af87c06d:
     event_id: 040f3174-f0df-4daa-b8c1-fb32af87c06d
     event_type: Event
@@ -82003,6 +83954,19 @@ ZOOPLANKTON:
     stop_lat: 57.3132609
     stop_lon: 20.0770714
     stop_time: '20230713160342'
+  11c0d525-d1e2-4a3d-98af-0dee3d9a7f0a:
+    event_id: 11c0d525-d1e2-4a3d-98af-0dee3d9a7f0a
+    event_type: Event
+    full_name: Zooplankton.0043
+    id: '0043'
+    name: ZOOPLANKTON
+    parent_event_id: bc203d65-7c22-4f4d-a590-6c8512f5f653
+    start_lat: 58.5936882166667
+    start_lon: 18.2372788333333
+    start_time: '20240603013613'
+    stop_lat: 58.5936862333333
+    stop_lon: 18.2372490166667
+    stop_time: '20240603034708'
   13221380-989f-4b79-bcef-be721c94234f:
     event_id: 13221380-989f-4b79-bcef-be721c94234f
     event_type: Event
@@ -82016,6 +83980,19 @@ ZOOPLANKTON:
     stop_lat: 58.2849641
     stop_lon: 10.5073889333333
     stop_time: '20240816125139'
+  13394554-9bef-456b-8d9c-795979576eda:
+    event_id: 13394554-9bef-456b-8d9c-795979576eda
+    event_type: Event
+    full_name: Zooplankton.0045
+    id: '0045'
+    name: ZOOPLANKTON
+    parent_event_id: e75c7fc9-ea56-40ce-bbbc-2073eec8d7e0
+    start_lat: 55.2503277833333
+    start_lon: 15.9837731333333
+    start_time: '20240605012157'
+    stop_lat: 55.2570217833333
+    stop_lon: 15.9580809833333
+    stop_time: '20240605030919'
   14f1a6e5-b387-4d40-827b-2bce7ae5abff:
     event_id: 14f1a6e5-b387-4d40-827b-2bce7ae5abff
     event_type: Event
@@ -82498,6 +84475,19 @@ ZOOPLANKTON:
     stop_lat: 57.30684655
     stop_lon: 20.0725709666667
     stop_time: '20230615081336'
+  3e058c99-0cbc-42fa-aa8f-224e2fdde28e:
+    event_id: 3e058c99-0cbc-42fa-aa8f-224e2fdde28e
+    event_type: Event
+    full_name: Zooplankton.0049
+    id: 0049
+    name: ZOOPLANKTON
+    parent_event_id: bc28c052-c1d9-43b9-8f40-195d05dc9be4
+    start_lat: 58.2833898166667
+    start_lon: 10.50678875
+    start_time: '20240607023810'
+    stop_lat: 58.2835111833333
+    stop_lon: 10.5069756666667
+    stop_time: '20240607035802'
   3ff4f80e-b294-463a-a555-a8f405e543e3:
     event_id: 3ff4f80e-b294-463a-a555-a8f405e543e3
     event_type: Event
@@ -83155,6 +85145,19 @@ ZOOPLANKTON:
     stop_lat: 56.3705844
     stop_lon: 16.2002620666667
     stop_time: '20221205121245'
+  79bfcd71-5ba4-45c8-a35e-2851bbec30ee:
+    event_id: 79bfcd71-5ba4-45c8-a35e-2851bbec30ee
+    event_type: Event
+    full_name: Zooplankton.0042
+    id: '0042'
+    name: ZOOPLANKTON
+    parent_event_id: 32763f0d-6c78-4a9b-b1b2-4d12fce6df7a
+    start_lat: 56.1167823333333
+    start_lon: 16.5371928333333
+    start_time: '20240602061733'
+    stop_lat: 56.1167869333333
+    stop_lon: 16.5371805333333
+    stop_time: '20240602073729'
   7a51f6d9-dd4e-478f-8d91-44abc31df5ab:
     event_id: 7a51f6d9-dd4e-478f-8d91-44abc31df5ab
     event_type: Event
@@ -83192,6 +85195,19 @@ ZOOPLANKTON:
     stop_lat: 56.3702445666667
     stop_lon: 16.2019275166667
     stop_time: '20220519072711'
+  7d182aad-972b-4795-88d1-22cce16823ba:
+    event_id: 7d182aad-972b-4795-88d1-22cce16823ba
+    event_type: Event
+    full_name: Zooplankton.0046
+    id: '0046'
+    name: ZOOPLANKTON
+    parent_event_id: 2bd64525-016e-42cf-859a-8191b4581bcb
+    start_lat: 54.9716158833333
+    start_lon: 14.10106245
+    start_time: '20240605151004'
+    stop_lat: 54.9716218166667
+    stop_lon: 14.1010598
+    stop_time: '20240605161125'
   7d79f44a-a3a1-418d-82f2-5ca21c071d76:
     event_id: 7d79f44a-a3a1-418d-82f2-5ca21c071d76
     event_type: Event
@@ -83400,6 +85416,19 @@ ZOOPLANKTON:
     stop_lat: 58.59408765
     stop_lon: 18.23642835
     stop_time: '20230614022158'
+  8b6d5729-1ec2-4110-aa50-2c8956ea8a56:
+    event_id: 8b6d5729-1ec2-4110-aa50-2c8956ea8a56
+    event_type: Event
+    full_name: Zooplankton.0047
+    id: '0047'
+    name: ZOOPLANKTON
+    parent_event_id: f72cad29-4ce7-46da-a4ce-779134ea22ae
+    start_lat: 56.66931365
+    start_lon: 12.1122652833333
+    start_time: '20240606094336'
+    stop_lat: 56.6693575
+    stop_lon: 12.1122739833333
+    stop_time: '20240606103445'
   8b97dc99-6287-471e-a1f6-250dbe3c28dd:
     event_id: 8b97dc99-6287-471e-a1f6-250dbe3c28dd
     event_type: Event
@@ -83595,6 +85624,19 @@ ZOOPLANKTON:
     stop_lat: 58.2606393666667
     stop_lon: 11.4359334833333
     stop_time: '20220523142933'
+  9ca12415-1541-44c1-8bfb-e3fa320b20d9:
+    event_id: 9ca12415-1541-44c1-8bfb-e3fa320b20d9
+    event_type: Event
+    full_name: Zooplankton.0048
+    id: 0048
+    name: ZOOPLANKTON
+    parent_event_id: fe1353f0-8d09-4169-9fed-2e41dd486fe3
+    start_lat: 56.9416956833333
+    start_lon: 12.21246985
+    start_time: '20240606123323'
+    stop_lat: 56.9416477666667
+    stop_lon: 12.2124568333333
+    stop_time: '20240606132054'
   9caf1963-d2e0-4464-a1b6-ea92060cb205:
     event_id: 9caf1963-d2e0-4464-a1b6-ea92060cb205
     event_type: Event
@@ -83881,6 +85923,19 @@ ZOOPLANKTON:
     stop_lat: 56.66804145
     stop_lon: 12.1108364166667
     stop_time: '20230413113115'
+  b28b77ed-6dcb-42b5-9523-1617961e1e7d:
+    event_id: b28b77ed-6dcb-42b5-9523-1617961e1e7d
+    event_type: Event
+    full_name: Zooplankton.0044
+    id: '0044'
+    name: ZOOPLANKTON
+    parent_event_id: 89ea8a5e-bbf6-46f8-815a-a9c1da6ad901
+    start_lat: 57.3125269
+    start_lon: 20.0770513666667
+    start_time: '20240603233625'
+    stop_lat: 57.3125044333333
+    stop_lon: 20.07705035
+    stop_time: '20240604012906'
   b2a6bb09-b5f4-4690-9d0c-a33526c5c15c:
     event_id: b2a6bb09-b5f4-4690-9d0c-a33526c5c15c
     event_type: Event
@@ -85257,6 +87312,21 @@ ZOOPLANKTON:
     stop_lat: 58.3393147666667
     stop_lon: 11.02621865
     stop_time: '20231111130011'
+  f96c5b12-2707-4272-b60c-2ef6bdfe062b:
+    event_id: f96c5b12-2707-4272-b60c-2ef6bdfe062b
+    event_type: Station
+    full_name: "\xC513.0555"
+    id: '0555'
+    max_depth: 93.9
+    min_depth: 93.0
+    name: "\xC513"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.3399373
+    start_lon: 11.0279451333333
+    start_time: '20240607081259'
+    stop_lat: 58.3399869833333
+    stop_lon: 11.0278445333333
+    stop_time: '20240607085844'
 "\xC514":
   17c068fb-96d6-48d6-bb4e-adc52bfe97df:
     event_id: 17c068fb-96d6-48d6-bb4e-adc52bfe97df
@@ -85520,6 +87590,21 @@ ZOOPLANKTON:
     stop_lat: 58.31638485
     stop_lon: 10.9346532333333
     stop_time: '20220812172622'
+  c7add43d-58fe-4b17-9a53-f2335b350335:
+    event_id: c7add43d-58fe-4b17-9a53-f2335b350335
+    event_type: Station
+    full_name: "\xC514.0554"
+    id: '0554'
+    max_depth: 109.3
+    min_depth: 0.0
+    name: "\xC514"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.3154455833333
+    start_lon: 10.9417720333333
+    start_time: '20240607072119'
+    stop_lat: 58.3155242
+    stop_lon: 10.94281295
+    stop_time: '20240607074801'
   cf00c12b-4856-4644-b4aa-3cf734e57a51:
     event_id: cf00c12b-4856-4644-b4aa-3cf734e57a51
     event_type: Station
@@ -85755,6 +87840,20 @@ ZOOPLANKTON:
     stop_lat: 58.2948143
     stop_lon: 10.8447824666667
     stop_time: '20230915230717'
+  8ff98025-6c86-491a-8d4b-a7fb5f0269bb:
+    event_id: 8ff98025-6c86-491a-8d4b-a7fb5f0269bb
+    event_type: Station
+    full_name: "\xC515.0553"
+    id: '0553'
+    max_depth: 133.2
+    name: "\xC515"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.2943765333333
+    start_lon: 10.8442478833333
+    start_time: '20240607060839'
+    stop_lat: 58.2943552833333
+    stop_lon: 10.8442543
+    stop_time: '20240607065135'
   91683b1a-5156-464d-8af2-38068b7ef518:
     event_id: 91683b1a-5156-464d-8af2-38068b7ef518
     event_type: Station
@@ -86115,6 +88214,21 @@ ZOOPLANKTON:
     stop_lat: 58.2671918333333
     stop_lon: 10.7252939666667
     stop_time: '20230810180551'
+  6e101550-e227-4c80-852d-91cedd6d8838:
+    event_id: 6e101550-e227-4c80-852d-91cedd6d8838
+    event_type: Station
+    full_name: "\xC516.0552"
+    id: '0552'
+    max_depth: 198.8
+    min_depth: 157.0
+    name: "\xC516"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.26583685
+    start_lon: 10.7234753
+    start_time: '20240607050554'
+    stop_lat: 58.2929424666667
+    stop_lon: 10.82211395
+    stop_time: '20240607055901'
   770d3402-3d4b-4cd7-b3f2-9f993572f2ac:
     event_id: 770d3402-3d4b-4cd7-b3f2-9f993572f2ac
     event_type: Station
@@ -86515,6 +88629,21 @@ ZOOPLANKTON:
     stop_lat: 58.2849113666667
     stop_lon: 10.5045824666667
     stop_time: '20240313040538'
+  bc28c052-c1d9-43b9-8f40-195d05dc9be4:
+    event_id: bc28c052-c1d9-43b9-8f40-195d05dc9be4
+    event_type: Station
+    full_name: "\xC517.0551"
+    id: '0551'
+    max_depth: 344.2
+    min_depth: 0.0
+    name: "\xC517"
+    parent_event_id: dcd87cc8-bd49-4017-9d4e-6673b1b3f150
+    start_lat: 58.283394
+    start_lon: 10.50679825
+    start_time: '20240607023747'
+    stop_lat: 58.2835111833333
+    stop_lon: 10.5069756666667
+    stop_time: '20240607035802'
   c0e756c1-c343-48a5-9a0b-b99def58602a:
     event_id: c0e756c1-c343-48a5-9a0b-b99def58602a
     event_type: Station
