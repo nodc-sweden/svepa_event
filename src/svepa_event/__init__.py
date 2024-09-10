@@ -10,8 +10,6 @@ import pathlib
 import requests
 import ssl
 
-# from functools import lru_cache
-
 logger = logging.getLogger(__name__)
 
 
