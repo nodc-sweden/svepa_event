@@ -155,68 +155,56 @@ class Event:
 
     @property
     def wind_dir(self):
-        value = self._info['A_AverageTrueWindDirSel'].replace(',', '.')
+        value = self._info.get('A_AverageTrueWindDirSel', '').replace(',', '.')
         if not value:
             return None
         return round(float(value))
 
     @property
     def wind_speed(self):
-        value = self._info['A_AverageWindSpeed'].replace(',', '.')
+        value = self._info.get('A_AverageWindSpeed', '').replace(',', '.')
         if not value:
             return None
         return round(float(value), 1)
 
     @property
     def min_depth(self):
-        if not self._info.get('A_MinDepth'):
-            return None
-        value = self._info['A_MinDepth'].replace(',', '.')
+        value = self._info.get('A_MinDepth').replace(',', '.')
         if not value:
             return None
         return round(float(value), 1)
 
     @property
     def max_depth(self):
-        if not self._info.get('A_MaxDepth'):
-            return None
-        value = self._info['A_MaxDepth'].replace(',', '.')
+        value = self._info.get('A_MaxDepth', '').replace(',', '.')
         if not value:
             return None
         return round(float(value), 1)
 
     @property
     def departure_port(self):
-        if not self._info.get('departure_port'):
-            return None
-        value = self._info['departure_port']
+        value = self._info.get('departure_port', '')
         if not value:
             return None
         return value
 
     @property
     def arrival_port(self):
-        if not self._info.get('arrival_port'):
-            return None
-        value = self._info['arrival_port']
+        value = self._info.get('arrival_port', '')
         if not value:
             return None
         return value
 
     @property
     def exp_leader(self):
-        if not self._info.get('resp_staff'):
-            return None
-        value = self._info['resp_staff']
+        value = self._info.get('resp_staff', '')
         if not value:
             return None
         return value
 
     @property
     def ices_rectangle(self):
-        if not self._info.get('ICESrect'):
-            return None
-        value = self._info['ICESrect']
+        value = self._info.get('ICESrect', '')
         if not value:
             return None
         return value
