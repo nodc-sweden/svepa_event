@@ -25669,6 +25669,19 @@ CTD:
     stop_lat: 55.8664984666667
     stop_lon: 12.74838425
     stop_time: '20220321073928'
+  18aab9ca-837f-4f38-91ba-1855c8cf71be:
+    event_id: 18aab9ca-837f-4f38-91ba-1855c8cf71be
+    event_type: Event
+    full_name: CTD.00002
+    id: '00002'
+    name: CTD
+    parent_event_id: 672b3303-559d-4623-84d2-8447408b902f
+    start_lat: 57.6153086666667
+    start_lon: 11.7044287333333
+    start_time: '20240108152000'
+    stop_lat: 57.6152846
+    stop_lon: 11.70442525
+    stop_time: '20240108153000'
   18baf0c3-cfee-434a-9111-79d722cba073:
     event_id: 18baf0c3-cfee-434a-9111-79d722cba073
     event_type: Event
@@ -28409,6 +28422,19 @@ CTD:
     stop_lat: 57.1224948333333
     stop_lon: 6.31169608333334
     stop_time: '20230127111837'
+  4952c699-eb13-4c60-8cd5-fe2cebdaab46:
+    event_id: 4952c699-eb13-4c60-8cd5-fe2cebdaab46
+    event_type: Event
+    full_name: CTD.00003
+    id: '00003'
+    name: CTD
+    parent_event_id: 6f51f715-cf5b-4867-be52-ef2ad12a35b9
+    start_lat: 57.6143767333333
+    start_lon: 11.7030564
+    start_time: '20240109085700'
+    stop_lat: 57.6143896666667
+    stop_lon: 11.7030805
+    stop_time: '20240109090700'
   49aee11c-aa7d-4d7d-9162-09430f381353:
     event_id: 49aee11c-aa7d-4d7d-9162-09430f381353
     event_type: Event
@@ -29614,6 +29640,19 @@ CTD:
     stop_lat: 58.8812171666667
     stop_lon: 20.3280332333333
     stop_time: '20240511020900'
+  6146a98d-d5ed-4166-a211-ecde9e470e05:
+    event_id: 6146a98d-d5ed-4166-a211-ecde9e470e05
+    event_type: Event
+    full_name: CTD.00004
+    id: '00004'
+    name: CTD
+    parent_event_id: dc3937ad-224c-42f7-8591-096fdde459bc
+    start_lat: 57.6159759166667
+    start_lon: 11.7029698166667
+    start_time: '20240109154600'
+    stop_lat: 57.6159554333333
+    stop_lon: 11.7029492666667
+    stop_time: '20240109155600'
   61baf73a-5075-4667-9ef9-9eb7a5db96d1:
     event_id: 61baf73a-5075-4667-9ef9-9eb7a5db96d1
     event_type: Event
@@ -33130,6 +33169,19 @@ CTD:
     parent_event_id: 3c6644b2-f5a3-4d90-802b-433d75b5cf46
     start_time: '20230209173700'
     stop_time: '20230209180447'
+  a387b8c6-a387-435a-ba08-896abd712106:
+    event_id: a387b8c6-a387-435a-ba08-896abd712106
+    event_type: Event
+    full_name: CTD.00001
+    id: '00001'
+    name: CTD
+    parent_event_id: cf69b23b-1037-4b31-9dd4-87e2c565ebbd
+    start_lat: 57.6228131166667
+    start_lon: 11.7009448333333
+    start_time: '20240108102100'
+    stop_lat: 57.6228116833333
+    stop_lon: 11.7009395
+    stop_time: '20240108103100'
   a44936a8-fc06-45b7-8ddf-42513bcf605f:
     event_id: a44936a8-fc06-45b7-8ddf-42513bcf605f
     event_type: Event
@@ -58417,6 +58469,19 @@ STATION:
     stop_lat: 58.2175421833333
     stop_lon: 9.86618941666666
     stop_time: '20230204233852'
+  672b3303-559d-4623-84d2-8447408b902f:
+    event_id: 672b3303-559d-4623-84d2-8447408b902f
+    event_type: Station
+    full_name: Station.0002
+    id: '0002'
+    name: STATION
+    parent_event_id: ee373fbd-d378-444b-9203-e0ebcf5bc51b
+    start_lat: 57.61531225
+    start_lon: 11.7044355333333
+    start_time: '20240108151900'
+    stop_lat: 57.61528105
+    stop_lon: 11.7044207833333
+    stop_time: '20240108153100'
   6ba01788-9c2c-4362-a7df-e6c19107ac6f:
     event_id: 6ba01788-9c2c-4362-a7df-e6c19107ac6f
     event_type: Station
@@ -58430,6 +58495,21 @@ STATION:
     stop_lat: 58.06014075
     stop_lon: 10.7094012166667
     stop_time: '20230206184635'
+  6f51f715-cf5b-4867-be52-ef2ad12a35b9:
+    event_id: 6f51f715-cf5b-4867-be52-ef2ad12a35b9
+    event_type: Station
+    full_name: Station.0003
+    id: '0003'
+    max_depth: 28.7
+    min_depth: 28.5
+    name: STATION
+    parent_event_id: ee373fbd-d378-444b-9203-e0ebcf5bc51b
+    start_lat: 57.6143943333333
+    start_lon: 11.7030818833333
+    start_time: '20240109085600'
+    stop_lat: 57.6143717666667
+    stop_lon: 11.7030662833333
+    stop_time: '20240109090800'
   7be13d43-745a-466f-a51d-afa772c74043:
     event_id: 7be13d43-745a-466f-a51d-afa772c74043
     event_type: Station
@@ -58682,6 +58762,19 @@ STATION:
     stop_lat: 57.3046576666667
     stop_lon: 11.4827740833333
     stop_time: '20230129174517'
+  cf69b23b-1037-4b31-9dd4-87e2c565ebbd:
+    event_id: cf69b23b-1037-4b31-9dd4-87e2c565ebbd
+    event_type: Station
+    full_name: Station.0001
+    id: '0001'
+    name: STATION
+    parent_event_id: ee373fbd-d378-444b-9203-e0ebcf5bc51b
+    start_lat: 57.6228131166667
+    start_lon: 11.7009448333333
+    start_time: '20240108102100'
+    stop_lat: 57.6228302666667
+    stop_lon: 11.7009383
+    stop_time: '20240108103200'
   d9708b38-e7dc-4a86-8790-3b8a76735cf1:
     event_id: d9708b38-e7dc-4a86-8790-3b8a76735cf1
     event_type: Station
@@ -58709,6 +58802,21 @@ STATION:
     stop_lat: 57.8869495166667
     stop_lon: 10.7742798
     stop_time: '20230204011044'
+  dc3937ad-224c-42f7-8591-096fdde459bc:
+    event_id: dc3937ad-224c-42f7-8591-096fdde459bc
+    event_type: Station
+    full_name: Station.0004
+    id: '0004'
+    max_depth: 28.9
+    min_depth: 28.8
+    name: STATION
+    parent_event_id: ee373fbd-d378-444b-9203-e0ebcf5bc51b
+    start_lat: 57.6159559666667
+    start_lon: 11.7029590666667
+    start_time: '20240109154500'
+    stop_lat: 57.61595905
+    stop_lon: 11.7029489833333
+    stop_time: '20240109155700'
   dfcd3aa5-4c4b-4d52-8337-e8f0f9d22ef3:
     event_id: dfcd3aa5-4c4b-4d52-8337-e8f0f9d22ef3
     event_type: Station
@@ -62484,6 +62592,19 @@ SVEA:
     start_lon: 16.37167845
     start_time: '20221205090951'
     stop_time: ''
+  ee373fbd-d378-444b-9203-e0ebcf5bc51b:
+    event_id: ee373fbd-d378-444b-9203-e0ebcf5bc51b
+    event_type: Trip
+    full_name: SVEA.2024.001
+    id: '001'
+    name: SVEA
+    note: SAT 2040
+    start_lat: 58.2753075333333
+    start_lon: 11.4475615666667
+    start_time: '20240107084500'
+    stop_lat: 57.7006516
+    stop_lon: 11.9317666166667
+    stop_time: '20240109185000'
   f7a87a1e-4ad4-47bb-b5f2-4ffb8b94078e:
     arrival_port: Lysekil
     departure_port: Lysekil
