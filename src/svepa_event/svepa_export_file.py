@@ -169,7 +169,7 @@ class Event:
 
     @property
     def min_depth(self):
-        value = self._info.get('A_MinDepth').replace(',', '.')
+        value = self._info.get('A_MinDepth', '').replace(',', '.')
         if not value:
             return None
         return round(float(value), 1)
